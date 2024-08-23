@@ -1040,14 +1040,14 @@ border: 2px solid #fff;
 
 .demo-btn-1 {
   padding: 5px 27px;
-  border: 2px solid #fff;
+  border: 2px solid #999;
   color: #fff;
   border-radius: 20px;
 }
 
 .sra-btn-1 {
   padding: 20px;
-  border: 2px solid #fff;
+  border:  2px solid #999;
   color: #fff;
   background: #000;
 }
@@ -1145,9 +1145,8 @@ border: 4px solid #fff;
   font-weight: 600;
   padding-right: 80px;
 }
-
 .reaserch-box.colorBoxbg .img-div {
-  height: 500px;
+  height: 340px;
 }
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -1162,6 +1161,25 @@ border: 4px solid #fff;
 # Global Sections
 --------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1499px) {
+  .reaserch-box.colorBoxbg .img-div {
+    height: 280px;
+}
+  .img-sound-div a img {
+    width: 17px;
+}
+  .slicksliderHeading {
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+  .reaserch-box .sectionDescription {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+  .reaserch-box .secTitle {
+    font-size: 1.2rem;
+    line-height: 1.72rem;
+    padding-right: 40px;
+}
   .faIconBox i.fa img {
     width: 22px;
 }
@@ -1253,7 +1271,11 @@ border: 4px solid #fff;
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
-
+@media (min-width: 1600px) and (max-width: 1699px){
+  section.workValue .col-lg-11 {
+    width: 100%;
+}
+}
 
 @media (min-width: 1900px) and (max-width: 2199px) {
   .box-big-heading {

@@ -364,7 +364,7 @@
         
 
 
-        <section class="section familyOff" style="background: linear-gradient(black, #3c3c3c, black); ">
+        <section class="section familyOff" style="background:#000; ">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <p class="sectionHeading text-white">DIGITAL FAMILY OFFICE KIT</p>
@@ -947,7 +947,7 @@ align-items: center;">
         </section>
 
 
-  <section class="" style="background:radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%)">
+  <section class="workValue" style="background:#000;">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-11">
@@ -1060,7 +1060,7 @@ align-items: center;">
 </section>
 
 
-        <section class="py-5" style="background: linear-gradient(black, #3c3c3c, black);">
+        <section class="py-5" style="background: #000;">
             <div class="container">
 
            
@@ -1236,7 +1236,7 @@ align-items: center;">
         <section class="section familyOff" style="background: url(assets/img/dotBg.jpg) repeat;">
             <div class="container">
                 <div class="row justify-content-center text-center">
-                    <p class="sliderHeading text-white">SERVICES</p>
+                    <p class="sectionHeading text-white">SERVICES</p>
                     <p class="sectionSubHeading text-white">Access to Functional and Industry Experts. 
                     </p>
 
