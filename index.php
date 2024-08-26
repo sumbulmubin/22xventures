@@ -119,19 +119,20 @@
                                             <p class="sliderHeading text-white">Financial Freedom Access for All
 
                                             </p>
+                                            <div class="faIconBox d-flex gap-2">
+                                                <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
+                                                <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
+                                                <div id="audioPopup" class="popup">
+                                                    <span class="close">&times;</span>
+                                                    <audio controls>
+                                                        <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
+                                                    </audio> -->
+                                                </div>
                                             <p class="sliderSubHeading text-white">Complimentary access to strategies and tools from successful families and businesses, tailored to your unique “Lifestage”, ensuring your path to financial freedom.
 
                                             </p>
                                         </div>
-                                        <div class="faIconBox d-flex gap-2">
-                                            <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                            <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                            <div id="audioPopup" class="popup">
-                                                <span class="close">&times;</span>
-                                                <audio controls>
-                                                    <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                </audio>
-                                            </div>
+                                        
 
 
 
@@ -145,7 +146,6 @@
                                             </div>
                                         </div>
 
-                                    </div>
 
 
                                     <div class="col-lg-5" style="position: relative;">
@@ -185,8 +185,8 @@
                                 <div class="row align-items-center position-relative">
                                     <div class="col-lg-6 text-center">
                                         <div class="boxWealth">
-                                            <p class="boxHeading text-white">Digital Family Office Kit
-                                            <span class="yellowTextColor">Private Wealth, Financial, and Risk Management
+                                            <p class="text-white slicksliderHeading">Digital Family Office Kit<br>
+                                            <span class="boxHeading text-white">Private Wealth, Financial, and Risk Management
                                             </span></p>
                                             <div class="d-flex gap-3 justify-content-center mt-5">
                                                 <a href="#" class="office-kit-box text-center text-white">
@@ -242,32 +242,32 @@
                                             </p>
                                             <p class="sliderSubHeading text-white">Start Now – Access Wealth Resources and Shape Your Ideal Life.
 
+                                                <div class="faIconBox d-flex gap-2">
 
+                                                    <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
+        
+        
+                                                    <div id="videoPopup" class="overlay">
+                                                        <div class="popup-content">
+                                                            <button class="close-btn" onclick="closePopup()">&times;</button>
+                                                            <video id="popupVideo" controls>
+                                                                <source src="assets/img/45avatar.mp4" type="video/mp4">
+                                                            </video>
+                                                        </div>
+                                                    </div>
+        
+                                                    <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
+                                                    <div id="audioPopup" class="popup">
+                                                        <span class="close">&times;</span>
+                                                        <audio controls>
+                                                            <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
+                                                        </audio> -->
+                                                    </div>
                                             </p>
 
                                         </div>
 
-                                        <div class="faIconBox d-flex gap-2">
-
-                                            <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-
-
-                                            <div id="videoPopup" class="overlay">
-                                                <div class="popup-content">
-                                                    <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                    <video id="popupVideo" controls>
-                                                        <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                    </video>
-                                                </div>
-                                            </div>
-
-                                            <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                            <div id="audioPopup" class="popup">
-                                                <span class="close">&times;</span>
-                                                <audio controls>
-                                                    <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                </audio>
-                                            </div>
+                                        
                                         </div>
                                     </div>
 
