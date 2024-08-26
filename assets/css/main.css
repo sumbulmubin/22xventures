@@ -125,10 +125,10 @@ h6 {
   background: #000000b8;
 }
 .yellowTextColor{
-  color: #f4c95d;
+  color: #ffc000;
 } 
 .yellowText {
-  color: #f4c95d;
+  color: #ffc000;
   position: absolute;
   top: -51px;
   left: -20px;
@@ -639,9 +639,9 @@ top: -3px;
   position: relative;
   content: '';
 }
-.innerSlider .slick-slide {
+/* .innerSlider .slick-slide {
   border: 4px solid #fff;
-}
+} */
 .innerSlider .slick-slide img{
   width:100%;
 }
@@ -687,7 +687,8 @@ top: -3px;
   padding-left: 0px;
 }
 .faIconBox {
-  /* padding-left: 30px; */
+  padding-left: 90px;
+  margin-top: -14px;
 }
 img.mfp-img {
   width: 942px;
@@ -1111,20 +1112,23 @@ border: 4px solid #fff;
 .work-box-1 {
   border: 2px solid #fff;
   padding: 10px 5px 5px;
+  width: 100%;
+  justify-content: center;
+  background: #000;
 }
-
 .employees-img img {
-  width: 15px;
+  width: 24px;
 }
 .carousel-indicators [data-bs-target] {
-  background-color: #ffffff00;
+  background-color: #000000;
   border: 2px solid #fff;
   opacity: 1;
 }
 
 .carousel-indicators .active {
   opacity: 1;
-  background-color: #fff !important;
+  background-color: #FFC107 !important;
+  border: 2px solid #FFC107 !important;
 }
 .text-uppercase{
   text-transform: uppercase;

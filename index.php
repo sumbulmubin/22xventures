@@ -36,29 +36,31 @@
                                             <!-- <p class="sliderHeading text-white">Live Your
                                                 <span style="position: relative;"><img src="assets/img/blackArrow.png" class="blackArrow" alt="Alt"> <span class="yellowText">Best</span></span> Life
                                             </p> -->
-                                            <p class="sliderSubHeading text-white">Complementary access to strategies tailored to your unique “Lifestage,” ensuring your path to financial freedom.</p>
-                                        </div>
-                                        <div class="faIconBox d-flex gap-2">
-                                            <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                            <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                            <div id="audioPopup" class="popup">
-                                                <span class="close">&times;</span>
-                                                <audio controls>
-                                                    <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                </audio>
-                                            </div>
-
-
-
-                                            <div id="videoPopup" class="overlay">
-                                                <div class="popup-content">
-                                                    <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                    <video id="popupVideo" controls>
-                                                        <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                    </video>
+                                            <div class="faIconBox d-flex gap-2">
+                                                <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
+                                                <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i> -->
+                                                <!-- <div id="audioPopup" class="popup">
+                                                    <span class="close">&times;</span>
+                                                    <audio controls>
+                                                        <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </div> -->
+    
+    
+    
+                                                <div id="videoPopup" class="overlay">
+                                                    <div class="popup-content">
+                                                        <button class="close-btn" onclick="closePopup()">&times;</button>
+                                                        <video id="popupVideo" controls>
+                                                            <source src="assets/img/45avatar.mp4" type="video/mp4">
+                                                        </video>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <p class="sliderSubHeading text-white">We are democratizing wealth building.
+                                            </p>
                                         </div>
+                                       
 
                                     </div>
 
@@ -66,11 +68,15 @@
                                     <div class="col-lg-5" style="position: relative;">
                                         <div class="innerSlider">
                                             <div class="slider-for">
-                                                <a href="assets/img/sl-Inner1.jpg" class="item-slick"><img src="assets/img/sl-Inner1.jpg" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner2.jpg" class="item-slick"><img src="assets/img/sl-Inner2.jpg" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner3.jpg" class="item-slick"><img src="assets/img/sl-Inner3.jpg" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner1.png" class="item-slick"><img src="assets/img/sl-Inner1.png" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner2.png" class="item-slick"><img src="assets/img/sl-Inner2.png" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner3.png" class="item-slick"><img src="assets/img/sl-Inner3.png" alt="Alt"></a> 
 
-                                                <a href="assets/img/sl-Inner4.jpg" class="item-slick"><img src="assets/img/sl-Inner4.jpg" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner4.png" class="item-slick"><img src="assets/img/sl-Inner4.png" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner5.png" class="item-slick"><img src="assets/img/sl-Inner5.png" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner6.png" class="item-slick"><img src="assets/img/sl-Inner6.png" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner7.png" class="item-slick"><img src="assets/img/sl-Inner7.png" alt="Alt"></a>
+                                                <a href="assets/img/sl-Inner8.png" class="item-slick"><img src="assets/img/sl-Inner8.png" alt="Alt"></a>
 
                                             </div>
 
@@ -113,7 +119,8 @@
                                             <p class="sliderHeading text-white">Financial Freedom Access for All
 
                                             </p>
-                                            <p class="sliderSubHeading text-white">Our goal is to democratize wealth building.
+                                            <p class="sliderSubHeading text-white">Complimentary access to strategies and tools from successful families and businesses, tailored to your unique “Lifestage”, ensuring your path to financial freedom.
+
                                             </p>
                                         </div>
                                         <div class="faIconBox d-flex gap-2">
@@ -143,13 +150,9 @@
 
                                     <div class="col-lg-5" style="position: relative;">
 
-                                        <div class="innerSlider">
-                                            <div class="slick-slider">
-                                                <a href="assets/img/sl-Inner8.jpg" class="item-slick"><img src="assets/img/sl-Inner8.jpg" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner2.jpg" class="item-slick"><img src="assets/img/sl-Inner2.jpg" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner3.jpg" class="item-slick"><img src="assets/img/sl-Inner3.jpg" alt="Alt"></a>
-
-                                                <a href="assets/img/sl-Inner4.jpg" class="item-slick"><img src="assets/img/sl-Inner4.jpg" alt="Alt"></a>
+                                        <div class="innerSlider92">
+                                            <div class="slick-slider92">
+                                               <img src="assets/img/image24.jpg" alt="Alt" class="img-fluid">
 
                                             </div>
 
@@ -180,44 +183,11 @@
 
                             <div class="carousel-item">
                                 <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="sliderHeading text-white">Complementary Access to Digital Family Office Kit
-                                            </p>
-                                            <p class="sliderSubHeading text-white">Your universal key to wealth, financial, risk management strategies, tools, and world-class resources.  Turn-key solutions tailored to your current means. 
-
-                                            </p>
-
-                                        </div>
-
-                                        <div class="faIconBox d-flex gap-2">
-
-                                            <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-
-
-                                            <div id="videoPopup" class="overlay">
-                                                <div class="popup-content">
-                                                    <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                    <video id="popupVideo" controls>
-                                                        <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                    </video>
-                                                </div>
-                                            </div>
-
-                                            <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                            <div id="audioPopup" class="popup">
-                                                <span class="close">&times;</span>
-                                                <audio controls>
-                                                    <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                </audio>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-lg-5  text-center">
+                                    <div class="col-lg-6 text-center">
                                         <div class="boxWealth">
-                                            <p class="boxHeading text-white">Private Wealth, Financial, and Risk Management <span class="yellowTextColor">Tool Kit</span></p>
+                                            <p class="boxHeading text-white">Digital Family Office Kit
+                                            <span class="yellowTextColor">Private Wealth, Financial, and Risk Management
+                                            </span></p>
                                             <div class="d-flex gap-3 justify-content-center mt-5">
                                                 <a href="#" class="office-kit-box text-center text-white">
                                                 SRA
@@ -265,10 +235,46 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-lg-6">
+                                        <div class="BannerTxtBox ps-5 pe-0" >
+                                            <p class="sliderHeading text-white">Empower Your Future: Open Access
+
+                                            </p>
+                                            <p class="sliderSubHeading text-white">Start Now – Access Wealth Resources and Shape Your Ideal Life.
+
+
+                                            </p>
+
+                                        </div>
+
+                                        <div class="faIconBox d-flex gap-2">
+
+                                            <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
+
+
+                                            <div id="videoPopup" class="overlay">
+                                                <div class="popup-content">
+                                                    <button class="close-btn" onclick="closePopup()">&times;</button>
+                                                    <video id="popupVideo" controls>
+                                                        <source src="assets/img/45avatar.mp4" type="video/mp4">
+                                                    </video>
+                                                </div>
+                                            </div>
+
+                                            <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
+                                            <div id="audioPopup" class="popup">
+                                                <span class="close">&times;</span>
+                                                <audio controls>
+                                                    <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
+                                                </audio>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <div class="row align-items-center position-relative">
                                     <div class="col-lg-7">
                                         <div class="BannerTxtBox">
@@ -281,10 +287,10 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <div class="row align-items-center position-relative">
                                     <div class="col-lg-7">
                                         <div class="BannerTxtBox">
@@ -297,9 +303,9 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <div class="row align-items-center position-relative">
                                     <div class="col-lg-7">
                                         <div class="BannerTxtBox">
@@ -312,10 +318,10 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <div class="row align-items-center position-relative">
                                     <div class="col-lg-7">
                                         <div class="BannerTxtBox">
@@ -328,7 +334,7 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -338,10 +344,10 @@
                                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                                     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                                     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                                    <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
                                     <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
                                     <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button> -->
                                 </div>
                                 <!-- Left and right controls/icons -->
                                 <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -416,7 +422,7 @@
                                 </div>
 
                                 <p class="sectionDescription text-white mt-2 secTitle">
-                                    Add tax-free income streams to supplement social security and savings; build legacy
+                                    Add tax-free income streams to supplement social security and savings; build a legacy.
                                 </p>
 
                                 <p class="sectionDescription text-white mt-4 main-description">Enjoy lifestyle benefits of tax-free income; and create family legacy …
@@ -527,12 +533,12 @@
                                     </div>
                                 </div>
 
-                                <p class="sectionDescription text-white mt-2 secTitle">Create your own bank like Walt Disney
-
+                                <p class="sectionDescription text-white mt-2 secTitle">Create your own bank like Walt Disney and Ray Kroc, for McDonald’s global expansion.
 
                                 </p>
 
                                 <p class="sectionDescription text-white mt-4 main-description">Take control, create your own banking system using life insurance…
+
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center mt-4 buttons-div">
                                     <a href="" class="demo-btn"> Demo</a>
@@ -560,6 +566,7 @@
                                 </p>
 
                                 <p class="sectionDescription text-white mt-4 main-description">Pay off your debts 70% faster without adding new monthly payment …
+
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center mt-4 buttons-div">
                                     <a href="" class="demo-btn"> Demo</a>
@@ -584,10 +591,12 @@
                                     </div>
                                 </div>
 
-                                <p class="sectionDescription text-white mt-2 secTitle">Magic multi-use of insurance for financial and risk management
+                                <p class="sectionDescription text-white mt-2 secTitle">Winning combination, Principal Safe + Alt-Asset Investments.
+
                                 </p>
 
-                                <p class="sectionDescription text-white mt-4 main-description">Financial legacy, asset protection, life, health, workforce bonus, wealth platform, and more …
+                                <p class="sectionDescription text-white mt-4 main-description">U.S. first real principal protected fund, guaranteed no-loss with built-in compounded growth …
+
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center mt-4 buttons-div">
                                     <a href="" class="demo-btn"> Demo</a>
@@ -639,7 +648,8 @@
                                     </div>
                                 </div>
 
-                                <p class="sectionDescription mt-5">DFL case. </p>
+                                <p class="sectionDescription mt-5">Debt Free Life case.
+                                </p>
 
                                 <!-- <p class="sectionDescription text-white mt-4 main-description">Gig- | retail workers – create lifetime annual income and retirement account within your current means … </p> -->
                                 <div class="d-flex justify-content-between align-items-center mt-4 buttons-div">
@@ -664,7 +674,8 @@
                                     </div>
                                 </div>
 
-                                <p class="sectionDescription mt-5">SRA case.
+                                <p class="sectionDescription mt-5">Secured Retirement Account case.
+
                                 </p>
                                 <!-- 
                         <p class="sectionDescription text-white mt-4 main-description">Gig- | retail workers – create lifetime annual income and retirement account within your current means … 
@@ -693,7 +704,6 @@
                                 </div>
 
                                 <p class="sectionDescription mt-5">Starlight Opportunity Fund case.
-
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center mt-4 buttons-div">
                                     <a href="" class="demo-btn"> Demo</a>
@@ -716,9 +726,7 @@ align-items: center;">
 
             <div class="container">
                 <div class="row justify-content-center text-center mb-1">
-                    <p class="sectionHeading text-white">WORKER’S BENEFITS
-
-                    </p>
+                    <p class="sectionHeading text-white">NEW WORKER’S BENEFITS </p>
 
                 </div>
 
@@ -735,11 +743,12 @@ align-items: center;">
                                     <div class="col-lg-5" style="position: relative;">
                                         <div class="innerSlider">
                                             <div class="slider-for2">
-                                                <div class="item-slick"><img src="assets/img/image48.png" alt="Alt"></div>
-                                                <div class="item-slick"><img src="assets/img/sl-Inner2.jpg" alt="Alt"></div>
-                                                <div class="item-slick"><img src="assets/img/sl-Inner3.jpg" alt="Alt"></div>
+                                                <div class="item-slick"><img src="assets/img/Fsl-1.png" alt="Alt"></div>
+                                                <div class="item-slick"><img src="assets/img/Fsl-2.png" alt="Alt"></div>
+                                                <div class="item-slick"><img src="assets/img/Fsl-3.png" alt="Alt"></div>
 
-                                                <div class="item-slick"><img src="assets/img/sl-Inner4.jpg" alt="Alt"></div>
+                                                <div class="item-slick"><img src="assets/img/Fsl-4.png" alt="Alt"></div>
+                                                <div class="item-slick"><img src="assets/img/Fsl-5.png" alt="Alt"></div>
 
                                             </div>
 
@@ -771,7 +780,8 @@ align-items: center;">
                                         <div class="BannerTxtBox">
                                             <p class="slicksliderHeading text-white">Revolutionizing Total Workforce Benefits
                                             </p>
-                                            <p class="sliderSubHeading text-white">For Talent Acquisition and Retention.  Design total rewards centered around the entire workforce – founders, executives, employees and contractors.</p>
+                                            <p class="sliderSubHeading text-white">Attract, Retain, Reward – Tailored for Your Whole Team, From Founders to Contractors.
+</p>
                                         </div>
                                         <div class="faIconBox d-flex gap-2">
                                             <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
@@ -800,7 +810,9 @@ align-items: center;">
 
 
                                 </div>
-                            </div>
+                            </div> 
+
+
 
                             <div class="carousel-item">
                                 <div class="row align-items-center">
@@ -834,9 +846,123 @@ align-items: center;">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 ">
-                                        <p class="slicksliderHeading text-white">Industry Leading 401K Solution</p>
-                                        <p class="sliderSubHeading text-white">Outsource company’s benefits adminstration.  We manage employee’s customer experience, sales, back-office operations, QA, and compliance.
+                                        <p class="slicksliderHeading text-white">Industry Leading Digital 401(k) Solution
                                         </p>
+                                        <p class="sliderSubHeading text-white">Outsource with Confidence – Your Benefits and Operations Managed End-to-End.
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 ">
+                                        <p class="boxHeading text-white text-center">Total Workforce Benefits
+                                        </p>
+
+                                        <div class="d-flex mt-2 justify-content-center gap-3">
+                                            <div class="work-box-1 d-flex">
+                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees<br>
+                                                    Benefits
+                                                    </p>
+                                                <div class=" d-flex employees-img mt-2">
+
+                                                    <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
+                                                    <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="work-box-1 d-flex">
+                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors<br>
+                                                    Benefits
+                                                    </p>
+                                                <div class=" d-flex employees-img mt-2">
+
+                                                    <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
+                                                    <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- <div class="d-flex justify-content-center mt-3">
+                                            <span class="yellowText-1">Plus</span>
+                                        </div> -->
+
+                                        <p class="sliderSubHeading text-white  mt-2">Tailored Plans for Growth, Performance, and Risk Mitigation
+
+                                        </p>
+
+                                        <div class="row align-items-center">
+                                                    
+                                            <div class="col-lg-10 text-start">
+                                                <ul class="text-white finance-ul">
+                                                    <li>Human Capital Strategy</li>
+                                                    <li> Fractional HR</li>
+                                                    <li>  HR Operations & Admin</li>
+                                                    <li>  HR Outsourcing</li>
+                                                    <li>  Worker’s Development</li>
+                                                    <li> Training Programs</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="d-flex gap-3 justify-content-center mt-4">
+                                            <a href="#" class="office-kit-box text-center text-white">
+                                        SRA
+                                    </a>
+                                            <a href="#" class="office-kit-box text-center text-white">
+                                        TFRA
+                                    </a>
+                                            <a href="#" class="office-kit-box text-center text-white">
+                                        Children Straight Fund
+                                    </a>
+                                            <a href="#" class="office-kit-box text-center text-white">
+                                                Horizon Breakout Fund
+                                                
+                                    </a>
+                                            <a href="#" class="office-kit-box text-center text-white">
+                                                IBC
+
+                                    </a>
+                                            <a href="#" class="office-kit-box text-center text-white">
+                                        DFL
+                                    </a>
+                                        </div> -->
+
+                                        <!-- <div>
+                                            <p class="text-white text-center mt-4">Your Wealth | Financial | Risk Management <span class="yellowTextColor">Tool Kit</span></p>
+                                        </div> -->
+                                    </div>
+
+                                    <div class="col-lg-6 ">
+                                        <p class="slicksliderHeading text-white">Redefining Benefits – It’s More Than 401(k) and Health Insurance
+
+                                        </p>
+                                        <p class="sliderSubHeading text-white">Rewards and Benefits That Build Legacies – For Workers and Their Families.
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 ">
+                                        <img class="img-fluid" src="assets/img/hdphoto1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-lg-6 ">
+                                        <p class="boxHeading text-white">Industry-first Comprehensive Contractor Benefits
+                                        </p>
+
+                                        <p class="sliderSubHeading text-white">Today's modern business comprises founders, full-time and part-time employees, contractors, and fractional leaders. We create innovative workforce benefit packages tailored to the needs of this rapidly evolving workforce.
+
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -848,7 +974,7 @@ align-items: center;">
 
                                         <div class="d-flex mt-2 justify-content-center gap-3">
                                             <div class="work-box-1 d-flex">
-                                                <p class="text-center text-white mb-0 px-5">Employees
+                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
                                                     Benefits
                                                     </p>
                                                 <div class=" d-flex employees-img mt-2">
@@ -859,7 +985,7 @@ align-items: center;">
                                             </div>
 
                                             <div class="work-box-1 d-flex">
-                                                <p class="text-center text-white mb-0 px-5">Contractors
+                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
                                                     Benefits
                                                     </p>
                                                 <div class=" d-flex employees-img mt-2">
@@ -907,9 +1033,10 @@ align-items: center;">
                                     </div>
 
                                     <div class="col-lg-6 ">
-                                        <p class="slicksliderHeading text-white">More than 401K, and health insurance
+                                        <p class="slicksliderHeading text-white">Workforce Benefits <span style="color:#ffc000;">plus</span> Digital Family Office Kit
                                         </p>
-                                        <p class="sliderSubHeading text-white">Total rewards and life benefits designed around worker’s families and legacy.
+                                        <p class="sliderSubHeading text-white">From Start to Success.  Solutions for All Lifestages – Differentiation Through Customized Bundles.
+
 
                                         </p>
                                     </div>
@@ -926,8 +1053,8 @@ align-items: center;">
                                     <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
                                     <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
                                     <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="5"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="6"></button>
+                                    <!-- <button type="button" data-bs-target="#demo2" data-bs-slide-to="5"></button>
+                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="6"></button> -->
                                 </div>
                                 <!-- Left and right controls/icons -->
                                 <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
