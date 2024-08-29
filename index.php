@@ -633,20 +633,20 @@
                 </p>
 
                 <div class="d-flex mt-2 justify-content-center gap-3 mb-4">
-                    <div class="work-box-1 d-flex">
+                    <div class="work-box-1 d-flex align-items-center" >
                         <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
                             </p>
-                        <div class=" d-flex employees-img mt-2">
+                        <div class="d-flex employees-img ">
 
                             <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
                             <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
                         </div>
                     </div>
 
-                    <div class="work-box-1 d-flex">
+                    <div class="work-box-1 d-flex align-items-center">
                         <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
                             </p>
-                        <div class=" d-flex employees-img mt-2">
+                        <div class="d-flex employees-img">
 
                             <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
                             <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
@@ -764,27 +764,27 @@
             </div>
 
 
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <p class="sliderHeading2 text-white text-center">Workforce Benefits Bundle
                 </p>
 
                 <div class="d-flex mt-2 justify-content-center gap-3">
-                    <div class="work-box-1 d-flex">
+                    <div class="work-box-1 d-flex align-items-center">
                         <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
                             Benefits
                             </p>
-                        <div class=" d-flex employees-img mt-2">
+                        <div class=" d-flex employees-img">
 
                             <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
                             <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
                         </div>
                     </div>
 
-                    <div class="work-box-1 d-flex">
+                    <div class="work-box-1 d-flex align-items-center">
                         <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
                             Benefits
                             </p>
-                        <div class=" d-flex employees-img mt-2">
+                        <div class=" d-flex employees-img">
 
                             <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
                             <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
