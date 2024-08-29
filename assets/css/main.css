@@ -86,13 +86,13 @@ h6 {
   position: relative;
 }
 .sliderSubHeading {
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 2.4rem;
   padding-top: 30px;
   /* padding-left: 30px; */
   position: relative;
 }
-.sliderHeading:after {
+/* .sliderHeading:after {
   content: '';
   position: absolute;
   bottom:-22px;
@@ -100,7 +100,7 @@ h6 {
   width: 60px;
   height: 8px;
   left: 0;
-}
+} */
 .sectionHeading {
   font-size: 3.5rem;
   line-height: 4rem;
@@ -121,21 +121,32 @@ h6 {
 .slicksliderHeading:after {
   content: '';
   position: absolute;
-  bottom:-22px;
+  bottom: 10px;
   background: #ffc000;
   width: 60px;
   height: 8px;
-  left: 0;
+  left: -100px;
 }
 .sectionSubHeading {
   font-size: 1.5rem;
   line-height: 1.8rem;
-  font-family: "Charis SIL", serif;
+  /* font-family: "Charis SIL", serif; */
 }
 .boxHeading {
   font-size: 2.2rem;
   line-height: 2.6rem;
-  font-weight: 500;
+  font-weight: 700;
+  position: relative;
+  padding-left: 70px;
+}
+.boxHeading:after {
+  content: '';
+  position: absolute;
+  top:50%;
+  background: #ffc000;
+  width: 60px;
+  height: 8px;
+  left: -10px;
 }
 .scrolled header#header {
   background: #000000b8;
@@ -200,7 +211,7 @@ video#popupVideo1 {
   background:#fff;
 }
 section {
-  padding: 80px 0px;
+  padding: 140px 0px 40px 0px;
 }
 @media (max-width: 1200px) {
   .header .logo {
@@ -689,12 +700,15 @@ top: -3px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.42rem;
 }
 .finance-ul li {
   width: 29%;
   float: left;
   margin-left: 20px;
   padding-bottom: 5px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 .boxWealth {
   padding: 48px 0px;
@@ -870,10 +884,9 @@ img.mfp-img {
   transition: .5s;
   /* Animation */
 }
-
 .sectionDescription {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 .research-div {
   width: 100%;
@@ -1038,7 +1051,7 @@ min-height: 151px;
 position: relative;
 overflow: hidden;
 width: 100%;
-border: 2px solid #fff;
+/* border: 2px solid #fff; */
 }
 
 .img-div-1 img {
@@ -1054,7 +1067,12 @@ border: 2px solid #fff;
   padding: 16px;
   height: 100%;
 }
-
+.banBox {
+  padding-top: 200px;
+}
+.innerSlider {
+  margin-top: 60px;
+}
 .demo-btn-1 {
   padding: 5px 27px;
   border: 2px solid #999;
@@ -1121,8 +1139,9 @@ border: 4px solid #fff;
 
 .yellowText-1 {
   color: #ffc000;
-  font-family: myFirstFont;
-  font-size: 56px;
+  /* font-family: myFirstFont; */
+  font-size: 4rem;
+  font-weight: 600;
 }
 
 .work-box-1 {
@@ -1316,9 +1335,7 @@ border: 4px solid #fff;
   .trapez-box {
     padding: 38px 20px;
 } 
-  .BannerTxtBox {
-    padding-right: 120px;
-}
+
 .sliderHeading {
   font-size: 4.2rem;
   line-height: 5rem;

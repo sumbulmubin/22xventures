@@ -13,351 +13,184 @@
     <?php include('inc/header.php') ?>
 
         <!--  BANNER SLIDER  -->
-        <div class="banner" style="background: #000;height: 100vh;
-    position: relative;
-    overflow: hidden; display: flex;
-    align-items: center;">
+        <div class="banner" style="background: #000;
+    position: relative;;">
 
             <div class="container">
                 <div class="banBox">
-                    <div id="demo" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="sliderHeading text-white text-center">EMPOWERING PERSONAL WEALTH<br>
+                                & WORKFORCE PROSPERITY
+                    
+                            </p>
+                    
+                            <p class="sliderSubHeading text-white text-center">Access the Financial Playbook of Successful Families and Businesses. 
+                            </p>
+                    
+                            <p class="slicksliderHeading text-center text-white m-auto" style="width:fit-content;">Create the Life You Dream
+                            </p>
+                        </div> 
+                    </div>
+                    <div class="row justify-content-center">
+                    <div class="col-lg-8" style="position: relative;">
+                        <div class="innerSlider">
+                            <div class="slider-for">
+                                <a href="assets/img/sl-Inner1.png" class="item-slick"><img src="assets/img/sl-Inner1.png" alt="Alt"></a>
+                                <a href="assets/img/sl-Inner2.png" class="item-slick"><img src="assets/img/sl-Inner2.png" alt="Alt"></a>
+                                <a href="assets/img/sl-Inner3.png" class="item-slick"><img src="assets/img/sl-Inner3.png" alt="Alt"></a> 
 
-                        <!-- Indicators/dots -->
+                                <a href="assets/img/sl-Inner4.png" class="item-slick"><img src="assets/img/sl-Inner4.png" alt="Alt"></a>
+                                <a href="assets/img/sl-Inner5.png" class="item-slick"><img src="assets/img/sl-Inner5.png" alt="Alt"></a>
+                                <a href="assets/img/sl-Inner6.png" class="item-slick"><img src="assets/img/sl-Inner6.png" alt="Alt"></a>
+                                <a href="assets/img/sl-Inner7.png" class="item-slick"><img src="assets/img/sl-Inner7.png" alt="Alt"></a>
+                                <a href="assets/img/sl-Inner8.png" class="item-slick"><img src="assets/img/sl-Inner8.png" alt="Alt"></a>
 
-
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-
-                                            <p class="sliderHeading text-white">Create the Life You Dream</p>
-                                            <!-- <p class="sliderHeading text-white">Live Your
-                                                <span style="position: relative;"><img src="assets/img/blackArrow.png" class="blackArrow" alt="Alt"> <span class="yellowText">Best</span></span> Life
-                                            </p> -->
-                                            <div class="faIconBox d-flex gap-2">
-                                                <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                                <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i> -->
-                                                <!-- <div id="audioPopup" class="popup">
-                                                    <span class="close">&times;</span>
-                                                    <audio controls>
-                                                        <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                    </audio>
-                                                </div> -->
-    
-    
-    
-                                                <div id="videoPopup" class="overlay">
-                                                    <div class="popup-content">
-                                                        <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                        <video id="popupVideo" controls>
-                                                            <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                        </video>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="sliderSubHeading text-white">We are democratizing wealth building.
-                                            </p>
-                                        </div>
-                                       
-
-                                    </div>
-
-
-                                    <div class="col-lg-5" style="position: relative;">
-                                        <div class="innerSlider">
-                                            <div class="slider-for">
-                                                <a href="assets/img/sl-Inner1.png" class="item-slick"><img src="assets/img/sl-Inner1.png" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner2.png" class="item-slick"><img src="assets/img/sl-Inner2.png" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner3.png" class="item-slick"><img src="assets/img/sl-Inner3.png" alt="Alt"></a> 
-
-                                                <a href="assets/img/sl-Inner4.png" class="item-slick"><img src="assets/img/sl-Inner4.png" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner5.png" class="item-slick"><img src="assets/img/sl-Inner5.png" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner6.png" class="item-slick"><img src="assets/img/sl-Inner6.png" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner7.png" class="item-slick"><img src="assets/img/sl-Inner7.png" alt="Alt"></a>
-                                                <a href="assets/img/sl-Inner8.png" class="item-slick"><img src="assets/img/sl-Inner8.png" alt="Alt"></a>
-
-                                            </div>
-
-                                            <div id="videoModal" class="modal">
-                                                <div class="modal-content">
-
-                                                    <span class="close" onclick="closeModal()">&times;</span>
-                                                    <video id="popupVideo1" controls>
-                                                        <source src="assets/img/15sec-avatar.mp4" type="video/mp4">
-                                                    </video>
-                                                </div>
-                                            </div>
-                                            <!-- <div id="videoPopup2" class="overlay">
-                                            <div class="popup-content">
-                                                <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                <video id="popupVideo2" controls>
-                                                    <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                </video>
-                                            </div>
-                                        </div> -->
-                                        </div>
-
-                                        <div class="buttons">
-                                            <button id='toggle'><img class="img-fluid" src="assets/img/playIcon.png" alt=""></button>
-
-                                        </div>
-
-                                        <div class="showPopup">
-                                            <span id="camera-icon"><img class="img-fluid" src="assets/img/cameraIcon.png" alt=""></span>
-                                            <span id="video-icon"><img class="img-fluid thumbnail" onclick="openModal()" src="assets/img/videoIcon.png" alt=""></span>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
-                            <div class="carousel-item">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="sliderHeading text-white">Financial Freedom Access for All
+                            <div id="videoModal" class="modal">
+                                <div class="modal-content">
 
-                                            </p>
-                                            <div class="faIconBox d-flex gap-2">
-                                                <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                                <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                                <div id="audioPopup" class="popup">
-                                                    <span class="close">&times;</span>
-                                                    <audio controls>
-                                                        <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                    </audio> -->
-                                                </div>
-                                            <p class="sliderSubHeading text-white">Complimentary access to strategies and tools from successful families and businesses, tailored to your unique “Lifestage”, ensuring your path to financial freedom.
-
-                                            </p>
-                                        </div>
-                                        
-
-
-
-                                            <div id="videoPopup" class="overlay">
-                                                <div class="popup-content">
-                                                    <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                    <video id="popupVideo" controls>
-                                                        <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                    </video>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-                                    <div class="col-lg-5" style="position: relative;">
-
-                                        <div class="innerSlider92">
-                                            <div class="slick-slider92">
-                                               <img src="assets/img/image24.jpg" alt="Alt" class="img-fluid">
-
-                                            </div>
-
-
-                                        </div>
-
-
-                                    </div>
+                                    <span class="close" onclick="closeModal()">&times;</span>
+                                    <video id="popupVideo1" controls>
+                                        <source src="assets/img/15sec-avatar.mp4" type="video/mp4">
+                                    </video>
                                 </div>
                             </div>
-
-                            <div class="carousel-item">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-6 text-center">
-                                        <div class="boxWealth">
-                                            <p class="text-white sliderHeading2">Digital Family Office Kit<br>
-                                            <span class="boxHeading text-white">Private Wealth, Financial, and Risk Management
-                                            </span></p>
-                                            <div class="d-flex gap-3 justify-content-center mt-5">
-                                                <a href="#" class="office-kit-box text-center text-white">
-                                                SRA
-                                            </a>
-                                                <a href="#" class="office-kit-box text-center text-white">
-                                                TFRA
-                                            </a>
-                                                <a href="#" class="office-kit-box text-center text-white">
-                                                Children Straight Fund
-                                            </a>
-                                                <a href="#" class="office-kit-box text-center text-white">
-                                                Children Straight Fund
-                                            </a>
-                                                <a href="#" class="office-kit-box text-center text-white">
-                                                ABC
-                                            </a>
-                                                <a href="#" class="office-kit-box text-center text-white">
-                                                DFL
-                                            </a>
-                                            </div>
-                                            <div class="mt-5">
-                                                <div class="row align-items-center">
-                                                    <div class="col-lg-2">
-                                                        <img src="assets/img/two-hammers.png" alt="">
-                                                    </div>
-                                                    <div class="col-lg-10 text-start">
-                                                        <ul class="text-white finance-ul">
-                                                            <li>Free Financial Plan</li>
-                                                            <li>Wealth Strategy</li>
-                                                            <li>Insurance</li>
-                                                            <li>Research Analysis</li>
-                                                            <li>Tax Mitigation</li>
-                                                            <li>Estate Plan</li>
-                                                            <li>Legal </li>
-                                                            <li>Virtual Assistant</li>
-                                                            <li>Risk Management</li>
-                                                            <li>Club Access</li>
-                                                            <li>Private Investment</li>
-                                                            <li>Private Credit</li>
-
-                                                                
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="BannerTxtBox ps-5 pe-0" >
-                                            <p class="sliderHeading text-white">Empower Your Future: Open Access
-
-                                            </p>
-                                            
-                                            <div class="faIconBox d-flex gap-2">
-
-                                                <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-    
-    
-                                                <div id="videoPopup" class="overlay">
-                                                    <div class="popup-content">
-                                                        <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                        <video id="popupVideo" controls>
-                                                            <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                        </video>
-                                                    </div>
-                                                </div>
-    
-                                                <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                                <div id="audioPopup" class="popup">
-                                                    <span class="close">&times;</span>
-                                                    <audio controls>
-                                                        <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                    </audio> -->
-                                                </div>
-                                            <p class="sliderSubHeading text-white">Start Now – Access Wealth Resources and Shape Your Ideal Life.
-
-                                            </p>
-
-                                        </div>
-
-                                        
-                                        </div>
-                                    </div>
-
-                                </div>
+                            <!-- <div id="videoPopup2" class="overlay">
+                            <div class="popup-content">
+                                <button class="close-btn" onclick="closePopup()">&times;</button>
+                                <video id="popupVideo2" controls>
+                                    <source src="assets/img/45avatar.mp4" type="video/mp4">
+                                </video>
                             </div>
+                        </div> -->
+                        </div>
 
-                            <!-- <div class="carousel-item">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="sliderHeading text-white">SLider 4</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5" style="position: relative;">
-                                        <img src="assets/img/sl-Inner8.jpg" alt="Alt" style="opacity: 0;;">
-
-                                    </div>
-                                </div>
-                            </div> -->
-
-
-                            <!-- <div class="carousel-item">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="sliderHeading text-white">SLider 5</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5" style="position: relative;">
-                                        <img src="assets/img/sl-Inner8.jpg" alt="Alt" style="opacity: 0;;">
-
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- <div class="carousel-item">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="sliderHeading text-white">SLider 6</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5" style="position: relative;">
-                                        <img src="assets/img/sl-Inner8.jpg" alt="Alt" style="opacity: 0;;">
-
-                                    </div>
-                                </div>
-                            </div> -->
-
-
-                            <!-- <div class="carousel-item">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="sliderHeading text-white">SLider 7</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5" style="position: relative;">
-                                        <img src="assets/img/sl-Inner8.jpg" alt="Alt" style="opacity: 0;;">
-
-                                    </div>
-                                </div>
-                            </div> -->
-
-
-                        <div class="indicatorBox">
-                            <div class="indicatorGroup">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class=""></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class=""></button>
-                                    <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button> -->
-                                </div>
-                                <!-- Left and right controls/icons -->
-                                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </button>
-                            </div>
-
+                        <div class="buttons">
+                            <button id='toggle'><img class="img-fluid" src="assets/img/playIcon.png" alt=""></button>
 
                         </div>
+
+                        <div class="showPopup">
+                            <span id="camera-icon"><img class="img-fluid" src="assets/img/cameraIcon.png" alt=""></span>
+                            <span id="video-icon"><img class="img-fluid thumbnail" onclick="openModal()" src="assets/img/videoIcon.png" alt=""></span>
+                        </div>
                     </div>
+                </div>
+
+                  
 
                 </div>
             </div>
         </div>
 
 
-        
 
+        <section style="background:#000; ">
+            <div class="container">
+                <div class="row justify-content-center position-relative">
+                    <div class="col-lg-8">
+                        <div class="BannerTxtBox pb-5">
+                            <p class="slicksliderHeading text-center text-white m-auto" style="width:fit-content;">Financial Freedom Access for All
+                            </p>
+                            <p class="sliderSubHeading text-center text-white">Complimentary access to strategies and tools from successful families and businesses, tailored to your unique “Lifestage”, ensuring your path to financial freedom.
+
+                            </p>
+                        </div>
+                        </div>
+
+
+                    <div class="col-lg-8" style="position: relative;">
+                        <img src="assets/img/image24.jpg" alt="Alt" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section style="background:#000; ">
+
+        <div class="row justify-content-center position-relative">
+
+            <div class="col-lg-6">
+                <div class="BannerTxtBox ps-5 pe-0">
+                    <p class="slicksliderHeading text-center text-white m-auto" style="width:fit-content;">Empower Your Future: Open Access
+
+                    </p>
+                    <p class="sliderSubHeading text-white">Start Now – Access Wealth Resources and Shape Your Ideal Life.
+
+                    </p>
+
+                </div>
+
+                
+                </div>
+
+            <div class="col-lg-8 text-center">
+                <div class="boxWealth">
+                    <p class="text-white sliderHeading2">Digital Family Office Kit<br>
+                    <span class="boxHeading text-white">Private Wealth, Financial, and Risk Management
+                    </span></p>
+                    <div class="d-flex gap-3 justify-content-center mt-5">
+                        <a href="#" class="office-kit-box text-center text-white">
+                        SRA
+                    </a>
+                        <a href="#" class="office-kit-box text-center text-white">
+                        TFRA
+                    </a>
+                        <a href="#" class="office-kit-box text-center text-white">
+                        Children Straight Fund
+                    </a>
+                        <a href="#" class="office-kit-box text-center text-white">
+                        Children Straight Fund
+                    </a>
+                        <a href="#" class="office-kit-box text-center text-white">
+                        ABC
+                    </a>
+                        <a href="#" class="office-kit-box text-center text-white">
+                        DFL
+                    </a>
+                    </div>
+                    <div class="mt-5">
+                        <div class="row align-items-center">
+                            <div class="col-lg-2">
+                                <img src="assets/img/two-hammers.png" alt="">
+                            </div>
+                            <div class="col-lg-10 text-start">
+                                <ul class="text-white finance-ul">
+                                    <li>Free Financial Plan</li>
+                                    <li>Wealth Strategy</li>
+                                    <li>Insurance</li>
+                                    <li>Research Analysis</li>
+                                    <li>Tax Mitigation</li>
+                                    <li>Estate Plan</li>
+                                    <li>Legal </li>
+                                    <li>Virtual Assistant</li>
+                                    <li>Risk Management</li>
+                                    <li>Club Access</li>
+                                    <li>Private Investment</li>
+                                    <li>Private Credit</li>
+
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+        
+        </section>
 
         <section class="section familyOff" style="background:#000; ">
             <div class="container">
                 <div class="row justify-content-center text-center">
-                    <p class="sectionHeading text-white">DIGITAL FAMILY OFFICE KIT</p>
-                    <p class="sectionSubHeading text-white">We bring strategies from successful family offices and businesses to the public.</p>
+                    <p class="sectionHeading text-white m-auto">DIGITAL FAMILY OFFICE KIT</p>
+                    <p class="sliderSubHeading text-white text-center">We bring strategies from successful family offices and businesses to the public.</p>
 
                 </div>
 
@@ -701,361 +534,290 @@
             </div>
         </section>
 
-        
-        <section class="section5" style=" background: url(assets/img/dotBg.jpg) repeat;
-position: relative;
-overflow: hidden; display: flex;
-align-items: center;">
-
-            <div class="container">
-                <div class="row justify-content-center text-center mb-1">
-                    <p class="sectionHeading text-white">NEW WORKER’S BENEFITS </p>
-
-                </div>
-
-                <div class="banBox">
-                    <div id="demo2" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
-
-                        <!-- Indicators/dots -->
 
 
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row align-items-center position-relative">
-                                    <div class="col-lg-5" style="position: relative;">
-                                        <div class="innerSlider">
-                                            <div class="slider-for2">
-                                                <div class="item-slick"><img src="assets/img/Fsl-1.png" alt="Alt"></div>
-                                                <div class="item-slick"><img src="assets/img/Fsl-2.png" alt="Alt"></div>
-                                                <div class="item-slick"><img src="assets/img/Fsl-3.png" alt="Alt"></div>
+<section style=" background: #000;">
+    <div class="container">
+        <p class="sliderHeading text-white text-center mb-5">  NEW WORKER’S BENEFITS
+        </p>
+      
 
-                                                <div class="item-slick"><img src="assets/img/Fsl-4.png" alt="Alt"></div>
-                                                <div class="item-slick"><img src="assets/img/Fsl-5.png" alt="Alt"></div>
+        <div class="row justify-content-center position-relative">
 
-                                            </div>
-
-                                            <div id="videoModal2" class="modal">
-                                                <div class="modal-content">
-
-                                                    <span class="close" onclick="closeModal()">&times;</span>
-                                                    <video id="popupVideo1" controls>
-                                                        <source src="assets/img/15sec-avatar.mp4" type="video/mp4">
-                                                    </video>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="buttons">
-                                            <button id='toggle2'><img class="img-fluid" src="assets/img/playIcon.png" alt=""></button>
-
-                                        </div>
-
-                                        <div class="showPopup">
-                                            <span id="camera-icon2"><img class="img-fluid" src="assets/img/cameraIcon.png" alt=""></span>
-                                            <span id="video-icon2"><img class="img-fluid thumbnail" onclick="openModal()" src="assets/img/videoIcon.png" alt=""></span>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-lg-7">
-                                        <div class="BannerTxtBox">
-                                            <p class="slicksliderHeading text-white">Revolutionizing Total Workforce Benefits
-                                            </p>
-                                            <div class="faIconBox d-flex gap-2">
-                                                <i class="fa"><img class="img-fluid" onclick="openPopup()" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                                <!-- <i class="fa"><img class="img-fluid" id="playButton" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-                                                <div id="audioPopup" class="popup">
-                                                    <span class="close">&times;</span>
-                                                    <audio controls>
-                                                        <source src="assets/img/1-30%20voiceover.mp3" type="audio/mp3">
-                                                    </audio>
-                                                </div> -->
-    
-    
-    
-                                                <div id="videoPopup" class="overlay">
-                                                    <div class="popup-content">
-                                                        <button class="close-btn" onclick="closePopup()">&times;</button>
-                                                        <video id="popupVideo" controls>
-                                                            <source src="assets/img/45avatar.mp4" type="video/mp4">
-                                                        </video>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="sliderSubHeading text-white">Attract, Retain, Reward – Tailored for Your Whole Team, From Founders to Contractors.
+            <div class="col-lg-8">
+                <div class="BannerTxtBox">
+                    <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Revolutionizing Total Workforce Benefits
+                    </p>
+                
+                    <p class="sliderSubHeading text-white text-center">Attract, Retain, Reward – Tailored for Your Whole Team, From Founders to Contractors.
 </p>
-                                        </div>
-                                      
+                </div>
+              
 
-                                    </div>
+            </div>
 
+            <div class="col-lg-8" style="position: relative;">
+                <div class="innerSlider">
+                    <div class="slider-for2">
+                        <div class="item-slick"><img src="assets/img/Fsl-1.png" alt="Alt"></div>
+                        <div class="item-slick"><img src="assets/img/Fsl-2.png" alt="Alt"></div>
+                        <div class="item-slick"><img src="assets/img/Fsl-3.png" alt="Alt"></div>
 
+                        <div class="item-slick"><img src="assets/img/Fsl-4.png" alt="Alt"></div>
+                        <div class="item-slick"><img src="assets/img/Fsl-5.png" alt="Alt"></div>
 
-                                </div>
-                            </div> 
+                    </div>
 
+                    <div id="videoModal2" class="modal">
+                        <div class="modal-content">
 
-
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class=" trapez-wrapper">
-                                            <div class="trapez-box text-center">
-                                                <p class="box-big-heading text-white mb-2"># 1</p>
-                                                <p class="box-small-heading text-white mb-0">BPO FOR DISRUPTORS
-                                                </p>
-                                            </div>
-                                            <div class="trapez-box text-center">
-                                                <p class="box-big-heading text-white mb-2">13</p>
-                                                <p class="box-small-heading text-white mb-0">DELIVERY SITES
-                                                </p>
-                                            </div>
-                                            <div class="trapez-box text-center">
-                                                <p class="box-big-heading  mb-2">60 %</p>
-                                                <p class="box-small-heading  mb-0">OR MORE COST SAVINGS
-                                                </p>
-                                            </div>
-                                            <div class="trapez-box text-center">
-                                                <p class="box-big-heading text-white mb-2">30 +</p>
-                                                <p class="box-small-heading text-white mb-0">LANGUAGES
-                                                </p>
-                                            </div>
-                                            <div class="trapez-box text-center">
-                                                <p class="box-big-heading text-white mb-2">95 +</p>
-                                                <p class="box-small-heading text-white mb-0">VOLUNTARY CLIENT RETENTION
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 ">
-                                        <p class="slicksliderHeading text-white">Industry Leading Digital 401(k) Solution
-                                        </p>
-                                        <p class="sliderSubHeading text-white">Outsource with Confidence – Your Benefits and Operations Managed End-to-End.
-
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 ">
-                                        <p class="boxHeading text-white text-center">Total Workforce Benefits
-                                        </p>
-
-                                        <div class="d-flex mt-2 justify-content-center gap-3">
-                                            <div class="work-box-1 d-flex">
-                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees<br>
-                                                    Benefits
-                                                    </p>
-                                                <div class=" d-flex employees-img mt-2">
-
-                                                    <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
-                                                    <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="work-box-1 d-flex">
-                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors<br>
-                                                    Benefits
-                                                    </p>
-                                                <div class=" d-flex employees-img mt-2">
-
-                                                    <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
-                                                    <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <!-- <div class="d-flex justify-content-center mt-3">
-                                            <span class="yellowText-1">Plus</span>
-                                        </div> -->
-
-                                        <p class="sliderSubHeading text-white  mt-2">Tailored Plans for Growth, Performance, and Risk Mitigation
-
-                                        </p>
-
-                                        <div class="row align-items-center">
-                                                    
-                                            <div class="col-lg-10 text-start">
-                                                <ul class="text-white finance-ul">
-                                                    <li>Human Capital Strategy</li>
-                                                    <li> Fractional HR</li>
-                                                    <li>  HR Operations & Admin</li>
-                                                    <li>  HR Outsourcing</li>
-                                                    <li>  Worker’s Development</li>
-                                                    <li> Training Programs</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <!-- <div class="d-flex gap-3 justify-content-center mt-4">
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        SRA
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        TFRA
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        Children Straight Fund
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                                Horizon Breakout Fund
-                                                
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                                IBC
-
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        DFL
-                                    </a>
-                                        </div> -->
-
-                                        <!-- <div>
-                                            <p class="text-white text-center mt-4">Your Wealth | Financial | Risk Management <span class="yellowTextColor">Tool Kit</span></p>
-                                        </div> -->
-                                    </div>
-
-                                    <div class="col-lg-6 ">
-                                        <p class="slicksliderHeading text-white">Redefining Benefits – It’s More Than 401(k) and Health Insurance
-
-                                        </p>
-                                        <p class="sliderSubHeading text-white">Rewards and Benefits That Build Legacies – For Workers and Their Families.
-
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 ">
-                                        <img class="img-fluid" src="assets/img/hdphoto1.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-6 ">
-                                        <p class="boxHeading text-white">Industry-first Comprehensive Contractor Benefits
-                                        </p>
-
-                                        <p class="sliderSubHeading text-white">Today's modern business comprises founders, full-time and part-time employees, contractors, and fractional leaders. We create innovative workforce benefit packages tailored to the needs of this rapidly evolving workforce.
-
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 ">
-                                        <p class="boxHeading text-white text-center">Total Workforce Benefits Bundle</p>
-
-                                        <div class="d-flex mt-2 justify-content-center gap-3">
-                                            <div class="work-box-1 d-flex">
-                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
-                                                    Benefits
-                                                    </p>
-                                                <div class=" d-flex employees-img mt-2">
-
-                                                    <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
-                                                    <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="work-box-1 d-flex">
-                                                <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
-                                                    Benefits
-                                                    </p>
-                                                <div class=" d-flex employees-img mt-2">
-
-                                                    <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
-                                                    <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="d-flex justify-content-center mt-3">
-                                            <span class="yellowText-1">Plus</span>
-                                        </div>
-
-                                        <p class="boxHeading text-white text-center mt-2">Digital Family Office sub-Kit – Supplemental
-                                        </p>
-
-                                        <div class="d-flex gap-3 justify-content-center mt-4">
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        SRA
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        TFRA
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        Children Straight Fund
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                                Horizon Breakout Fund
-                                                
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                                IBC
-
-                                    </a>
-                                            <a href="#" class="office-kit-box text-center text-white">
-                                        DFL
-                                    </a>
-                                        </div>
-
-                                        <div>
-                                            <p class="text-white text-center mt-4">Your Wealth | Financial | Risk Management <span class="yellowTextColor">Tool Kit</span></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 ">
-                                        <p class="slicksliderHeading text-white">Workforce Benefits <span style="color:#ffc000;">plus</span> Digital Family Office Kit
-                                        </p>
-                                        <p class="sliderSubHeading text-white">From Start to Success.  Solutions for All Lifestages – Differentiation Through Customized Bundles.
-
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="indicatorBox">
-                            <div class="indicatorGroup">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
-                                    <!-- <button type="button" data-bs-target="#demo2" data-bs-slide-to="5"></button>
-                                    <button type="button" data-bs-target="#demo2" data-bs-slide-to="6"></button> -->
-                                </div>
-                                <!-- Left and right controls/icons -->
-                                <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </button>
-                            </div>
-
-
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <video id="popupVideo1" controls>
+                                <source src="assets/img/15sec-avatar.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
 
                 </div>
+
+                <div class="buttons">
+                    <button id='toggle2'><img class="img-fluid" src="assets/img/playIcon.png" alt=""></button>
+
+                </div>
+
+                <div class="showPopup">
+                    <span id="camera-icon2"><img class="img-fluid" src="assets/img/cameraIcon.png" alt=""></span>
+                    <span id="video-icon2"><img class="img-fluid thumbnail" onclick="openModal()" src="assets/img/videoIcon.png" alt=""></span>
+                </div>
             </div>
-        </section>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<section style=" background: #000;">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Redefining Workforce Value  – More Than 401(k) and Health Insurance
+                </p>
+                <p class="sliderSubHeading text-white text-center">Rewards and Benefits That Build Legacies – For Workers and Their Families.
+                </p>
+            </div>
+
+            <div class="col-lg-8">
+                <p class="sliderHeading2 text-white text-center">Workforce Prosperity</p>
+
+                <p class="sliderSubHeading text-white text-center">Benefits Solutions From Founders to Contractors
+                </p>
+
+                <div class="d-flex mt-2 justify-content-center gap-3">
+                    <div class="work-box-1 d-flex">
+                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees<br>
+                            Benefits
+                            </p>
+                        <div class=" d-flex employees-img mt-2">
+
+                            <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
+                            <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
+                        </div>
+                    </div>
+
+                    <div class="work-box-1 d-flex">
+                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors<br>
+                            Benefits
+                            </p>
+                        <div class=" d-flex employees-img mt-2">
+
+                            <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
+                            <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="sliderSubHeading text-white text-center mt-2">Tailored Plans for Growth, Performance, and Risk Mitigation
+
+                </p>
+
+                <div class="row align-items-center">
+                            
+                    <div class="col-lg-10 text-start">
+                        <ul class="text-white finance-ul m-auto">
+                            <li>Human Capital Strategy</li>
+                            <li> Fractional HR</li>
+                            <li>  HR Operations &amp; Admin</li>
+                            <li>  HR Outsourcing</li>
+                            <li>  Worker’s Development</li>
+                            <li> Training Programs</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+           
+        </div>
+    </div>
+</section>
+
+
+
+<section style=" background: #000;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Industry Leading Digital 401(k) Solution
+                </p>
+                <p class="sliderSubHeading text-white text-center">Outsource with Confidence – Your Benefits and Operations Managed End-to-End.
+
+
+                </p>
+            </div>
+
+
+            <div class="col-lg-8">
+                <div class=" trapez-wrapper">
+                    <div class="trapez-box text-center">
+                        <p class="box-big-heading text-white mb-2"># 1</p>
+                        <p class="box-small-heading text-white mb-0">BPO FOR DISRUPTORS
+                        </p>
+                    </div>
+                    <div class="trapez-box text-center">
+                        <p class="box-big-heading text-white mb-2">13</p>
+                        <p class="box-small-heading text-white mb-0">DELIVERY SITES
+                        </p>
+                    </div>
+                    <div class="trapez-box text-center">
+                        <p class="box-big-heading  mb-2">60 %</p>
+                        <p class="box-small-heading  mb-0">OR MORE COST SAVINGS
+                        </p>
+                    </div>
+                    <div class="trapez-box text-center">
+                        <p class="box-big-heading text-white mb-2">30 +</p>
+                        <p class="box-small-heading text-white mb-0">LANGUAGES
+                        </p>
+                    </div>
+                    <div class="trapez-box text-center">
+                        <p class="box-big-heading text-white mb-2">95 +</p>
+                        <p class="box-small-heading text-white mb-0">VOLUNTARY CLIENT RETENTION
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+
+<section style=" background: #000;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Contractor Benefits – Comprehensive Bundled Solution</p>
+                <p class="sliderSubHeading text-white text-center">Today's modern business comprises founders, full-time and part-time employees, contractors, and fractional leaders. We create innovative workforce benefit packages tailored to the needs of this rapidly evolving workforce.
+                </p>
+            </div>
+
+
+            <div class="col-lg-8">
+                <img src="assets/img/hdphoto1.png" alt="" class="img-fluid">
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+<section style=" background: #000;">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+                <p class="sliderHeading text-white text-center mb-5">Unique Bundled Solutions Tailored to Fit Every Business Needs
+                </p>
+                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Workforce Benefits <span style="color:#ffc000;">plus</span> Digital Family Office Kit
+                </p>
+                <p class="sliderSubHeading text-white text-center mb-5">From Start to Success.  Solutions for All Lifestages – Differentiation Through Customized Bundles.
+
+
+                </p>
+            </div>
+
+
+            <div class="col-lg-8">
+                <p class="sliderHeading2 text-white text-center">Workforce Benefits Bundle
+                </p>
+
+                <div class="d-flex mt-2 justify-content-center gap-3">
+                    <div class="work-box-1 d-flex">
+                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
+                            Benefits
+                            </p>
+                        <div class=" d-flex employees-img mt-2">
+
+                            <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
+                            <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
+                        </div>
+                    </div>
+
+                    <div class="work-box-1 d-flex">
+                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
+                            Benefits
+                            </p>
+                        <div class=" d-flex employees-img mt-2">
+
+                            <a href=""><img src="assets/img/volume-new.png" alt="" class="img-fluid mx-2"></a>
+                            <a href=""> <img src="assets/img/folder-new.png" alt="" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-center mt-3">
+                    <span class="yellowText-1">Plus</span>
+                </div>
+
+                <p class="sliderHeading2 text-white text-center mt-2">Digital Family Office sub-Kit
+                </p>
+
+                <div class="d-flex gap-3 justify-content-center mt-4">
+                    <a href="#" class="office-kit-box text-center text-white">
+                SRA
+            </a>
+                    <a href="#" class="office-kit-box text-center text-white">
+                TFRA
+            </a>
+                    <a href="#" class="office-kit-box text-center text-white">
+                Children Straight Fund
+            </a>
+                    <a href="#" class="office-kit-box text-center text-white">
+                        Horizon Breakout Fund
+                        
+            </a>
+                    <a href="#" class="office-kit-box text-center text-white">
+                        IBC
+
+            </a>
+                    <a href="#" class="office-kit-box text-center text-white">
+                DFL
+            </a>
+                </div>
+
+                <div>
+                    <p class="sliderSubHeading text-white text-center mt-4">Private Wealth, Financial, and Risk Management
+                        <!-- <span class="yellowTextColor">Tool Kit</span></p> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 
   <section class="workValue" style="background:#000;">
@@ -1063,11 +825,11 @@ align-items: center;">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-11">
             <p class="sectionHeading text-white  text-center ">360<sup>0</sup> WORKER’S VALUE</p>
-            <p class="sectionSubHeading text-white  text-center ">Every day, we research and analyze strategies to add value to our clients </p>
+            <p class="sliderSubHeading text-white text-center">Every day, we research and analyze strategies to add value to our clients </p>
     
         <div class="row justify-content-center mt-5">
             <div class="col-lg-3">
-                <div class="reaserch-box-1">
+                <div class="reaserch-box-1" style="background: #0b3041;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
                             <p class="sectionDescription text-white text-uppercase fw-500">SOLUTION
@@ -1083,8 +845,8 @@ align-items: center;">
                             Wealth | Financial | Risk Management - Benefits Supplemental to all workers
 
                         </p>
-                        <div class="d-flex justify-content-between align-items-center mt-4 buttons-div-1">
-                            <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a>
+                        <div class="d-flex justify-content-end align-items-center mt-4 buttons-div-1">
+                            <!-- <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a> -->
                             <a href="" class="sra-btn-1">Family Office Kit
                             </a>
                         </div>
@@ -1092,7 +854,7 @@ align-items: center;">
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="reaserch-box-1">
+                <div class="reaserch-box-1" style="background: #3a3a3a;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
                             <p class="sectionDescription text-white text-uppercase fw-500">RESEARCH REPORT
@@ -1107,8 +869,8 @@ align-items: center;">
                             Best-in-class service and access to more investment alternatives
 
                         </p>
-                        <div class="d-flex justify-content-between align-items-center mt-4 buttons-div-1">
-                            <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a>
+                        <div class="d-flex justify-content-end align-items-center mt-4 buttons-div-1">
+                            <!-- <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a> -->
                             <a href="" class="sra-btn-1">401K
                             </a>
                         </div>
@@ -1116,7 +878,7 @@ align-items: center;">
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="reaserch-box-1">
+                <div class="reaserch-box-1" style="background: #78206e;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
                             <p class="sectionDescription text-white text-uppercase fw-500">RESEARCH REPORT
@@ -1131,8 +893,8 @@ align-items: center;">
                             Unique Captive solution for group benefits with cost and risk reduction
 
                         </p>
-                        <div class="d-flex justify-content-between align-items-center mt-4 buttons-div-1">
-                            <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a>
+                        <div class="d-flex justify-content-end align-items-center mt-4 buttons-div-1">
+                            <!-- <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a> -->
                             <a href="" class="sra-btn-1">1099’s
                                 Benefits
                                 </a>
@@ -1141,7 +903,7 @@ align-items: center;">
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="reaserch-box-1">
+                <div class="reaserch-box-1" style="background: #275317;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
                             <p class="sectionDescription text-white text-uppercase fw-500">BPO SOLUTION
@@ -1155,8 +917,8 @@ align-items: center;">
                             Fractional HR BPO could be a cost-effective alternative
 
                         </p>
-                        <div class="d-flex justify-content-between align-items-center mt-4 buttons-div-1">
-                            <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a>
+                        <div class="d-flex justify-content-end align-items-center mt-4 buttons-div-1">
+                            <!-- <a href="" class="demo-btn-1"> Demo <img src="assets/img/btn-arrow.png" alt="" class="img-fluid ms-2" ></a> -->
                             <a href="" class="sra-btn-1"> HR BPO
                             </a>
                         </div>
@@ -1191,84 +953,8 @@ align-items: center;">
 
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
+
                         <div class="carousel-item active">
-                            <div class="row justify-content-center align-items-center ">
-                                <div class="col-lg-5">
-                                    <img src="assets/img/image39.jpg" alt="" class="img-fluid funding-img">
-                                </div>
-
-                                <div class="col-lg-7">
-                                    <p class="boxHeading text-white ">Faith Based Organizations
-                                    </p>
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        Contribute to operating budgets of Faith Based organizations to help local communities and states uplift and support social values.
-                                    </p>
-
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        BPO and investments.
-                                    </p>
-                                    <div class="faIconBox d-flex gap-2">
-                                        <i class="fa"><img class="img-fluid" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                        <i class="fa"><img class="img-fluid" id="" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center align-items-center ">
-                                <div class="col-lg-5">
-                                    <img src="assets/img/image28.jpg" alt="" class="img-fluid funding-img">
-                                </div>
-
-                                <div class="col-lg-7">
-                                    <p class="boxHeading text-white ">Church and Charitable Organizations
-
-                                    </p>
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        Streamline Backoffice functions of worship organizations, implementing select business best practices.
-
-                                    </p>
-
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        BPO and investments.
-                                    </p>
-                                    <div class="faIconBox d-flex gap-2">
-                                        <i class="fa"><img class="img-fluid" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                        <i class="fa"><img class="img-fluid" id="" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center align-items-center ">
-                                <div class="col-lg-5">
-                                    <img src="assets/img/image41.jpg" alt="" class="img-fluid funding-img">
-                                </div>
-
-                                <div class="col-lg-7">
-                                    <p class="boxHeading text-white ">Special Needs | Neurodiverse Community
-
-                                    </p>
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        Peace of mind… Financial Care solving lifetime funding support for individuals with special needs.
-                                    </p>
-
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        Investments and Not-for-Profit.
-
-                                    </p>
-                                    <div class="faIconBox d-flex gap-2">
-                                        <i class="fa"><img class="img-fluid" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                        <i class="fa"><img class="img-fluid" id="" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
                             <div class="row justify-content-center align-items-center ">
                                 <div class="col-lg-5">
                                     <img src="assets/img/image40.jpg" alt="" class="img-fluid funding-img">
@@ -1279,22 +965,104 @@ align-items: center;">
 
 
                                     </p>
-                                    <p class="sliderSubHeading text-white mt-3">
+                                    <p class="sectionDescription text-white mt-3">
                                         Asian-Americans contributes vastly to local communities. We are co-investing to deliver wealth, financial, and risk management.
                                     </p>
 
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        Investments and Not-for-Profit.
-
-                                    </p>
-                                    <div class="faIconBox d-flex gap-2">
-                                        <i class="fa"><img class="img-fluid" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                        <i class="fa"><img class="img-fluid" id="" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <p class="sectionDescription text-white mb-0">
+                                            Investments and Not-for-Profit.
+                                        
+                                        </p>
+                                        <a href="" class="gap-3 align-items-center"><img src="assets/img/folder-new.png" alt="" class="img-fluid"> <span  class="sectionDescription px-2 text-white">Read More</span> <span><img src="assets/img/btn-arrow.png"></span></a>
                                     </div>
+                                   
+                               
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-lg-5">
+                                    <img src="assets/img/image41.jpg" alt="" class="img-fluid funding-img">
+                                </div>
+
+                                <div class="col-lg-7">
+                                    <p class="boxHeading text-white ">Special Needs | Neurodiverse Community
+
+                                    </p>
+                                    <p class="sectionDescription text-white mt-3">
+                                        Peace of mind… Financial Care solving lifetime funding support for individuals with special needs.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <p class="sectionDescription text-white mb-0">
+                                            Investments and Not-for-Profit.
+    
+                                        </p>
+                                        <a href="" class="gap-3 align-items-center"><img src="assets/img/folder-new.png" alt="" class="img-fluid"> <span  class="sectionDescription px-2 text-white">Read More</span> <span><img src="assets/img/btn-arrow.png"></span></a>
+                                    </div>
+                                  
+                                
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-lg-5">
+                                    <img src="assets/img/image39.jpg" alt="" class="img-fluid funding-img">
+                                </div>
+
+                                <div class="col-lg-7">
+                                    <p class="boxHeading text-white ">Faith Based Organizations
+                                    </p>
+                                    <p class="sectionDescription text-white mt-3">
+                                        Contribute to operating budgets of Faith Based organizations to help local communities and states uplift and support social values.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <p class="sectionDescription text-white mb-0">
+                                            BPO and investments.
+                                        </p>
+                                        <a href="" class="gap-3 align-items-center"><img src="assets/img/folder-new.png" alt="" class="img-fluid"> <span  class="sectionDescription px-2 text-white">Read More</span> <span><img src="assets/img/btn-arrow.png"></span></a>
+                                    </div>
+                                  
+                                 
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-lg-5">
+                                    <img src="assets/img/image28.jpg" alt="" class="img-fluid funding-img">
+                                </div>
+
+                                <div class="col-lg-7">
+                                    <p class="boxHeading text-white">Church and Charitable Organizations
+
+                                    </p>
+                                    <p class="sectionDescription text-white mt-3">
+                                        Streamline Backoffice functions of worship organizations, implementing select business best practices.
+
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <p class="sectionDescription text-white mb-0">
+                                            BPO and investments.
+                                        </p>
+                                        <a href="" class="gap-3 align-items-center"><img src="assets/img/folder-new.png" alt="" class="img-fluid"> <span  class="sectionDescription px-2 text-white">Read More</span> <span><img src="assets/img/btn-arrow.png"></span></a>
+                                    </div>
+                                  
+                                  
+                                </div>
+                            </div>
+                        </div>
+                   
+
+                   
 
                         <div class="carousel-item">
                             <div class="row justify-content-center align-items-center ">
@@ -1308,19 +1076,18 @@ align-items: center;">
 
 
                                     </p>
-                                    <p class="sliderSubHeading text-white mt-3">
+                                    <p class="sectionDescription text-white mt-3">
                                         Employee ownership is an extraordinary opportunity that should be available to everyone. How can the ESOP model be improved?
                                     </p>
-
-                                    <p class="sliderSubHeading text-white mt-3">
-                                        Workforce Benefits and Not-for-Profit.
-
-                                    </p>
-                                    <div class="faIconBox d-flex gap-2">
-                                        <i class="fa"><img class="img-fluid" style="filter: invert(1);" src="assets/img/user.png" alt=""></i>
-                                        <i class="fa"><img class="img-fluid" id="" style="filter: invert(1);" src="assets/img/volume.png" alt=""></i>
-
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <p class="sectionDescription text-white mb-0">
+                                            Workforce Benefits and Not-for-Profit.
+    
+                                        </p>
+                                        <a href="" class="gap-3 align-items-center"><img src="assets/img/folder-new.png" alt="" class="img-fluid"> <span  class="sectionDescription px-2 text-white">Read More</span> <span><img src="assets/img/btn-arrow.png"></span></a>
                                     </div>
+                                
+                                 
                                 </div>
                             </div>
                         </div>
@@ -1344,7 +1111,7 @@ align-items: center;">
         </section>
 
 
-        <section class="section familyOff" style="background: url(assets/img/dotBg.jpg) repeat;">
+        <section class="section familyOff" style="background: #000;">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <p class="sectionHeading text-white">SERVICES</p>
@@ -1361,7 +1128,8 @@ align-items: center;">
                             <div class="content-div ">
 
                                 <p class="sectionDescription text-white mt-2 secTitle">
-                                    Shared Services Outsourcing: SMB Tax and Bookkeeping, and Back Office Services
+                                    Fractional CFO and CHRO 
+
 
                                 </p>
 
@@ -1380,8 +1148,7 @@ align-items: center;">
                             </div>
                             <div class="content-div ">
 
-                                <p class="sectionDescription text-white mt-2 secTitle">
-                                    Advisory: Start-ups, SMB and Mid-Market M&A, and Due Diligence
+                                <p class="sectionDescription text-white mt-2 secTitle">Advisory: Start-ups, SMB and Mid-Market M&A, and Due Diligence
 
                                 </p>
 
@@ -1420,7 +1187,7 @@ align-items: center;">
                             </div>
                             <div class="content-div ">
 
-                                <p class="sectionDescription text-white mt-2 secTitle">Consulting: Owner’s Risk Management, and Succession 
+                                <p class="sectionDescription text-white mt-2 secTitle">Consulting: SPV and Fund Reporting, Management and Administration
 
 
                                 </p>
@@ -1441,8 +1208,7 @@ align-items: center;">
                             </div>
                             <div class="content-div ">
 
-                                <p class="sectionDescription text-white mt-2 secTitle">Consulting: Value Chain Assessment, Workforce Strategy, and Post-Merger Integration
-
+                                <p class="sectionDescription text-white mt-2 secTitle">Consulting: Owner’s Risk Management, and Succession 
 
                                 </p>
 
@@ -1462,8 +1228,7 @@ align-items: center;">
                             </div>
                             <div class="content-div ">
 
-                                <p class="sectionDescription text-white mt-2 secTitle">Shared Services Outsourcing: HR Administration
-
+                                <p class="sectionDescription text-white mt-2 secTitle">Consulting: Value Chain Assessment, Workforce Strategy, and Post-Merger Integration
 
                                 </p>
 
@@ -1483,8 +1248,7 @@ align-items: center;">
                             </div>
                             <div class="content-div ">
 
-                                <p class="sectionDescription text-white mt-2 secTitle">
-                                    Shared Services Outsourcing: SMB Tax and Bookkeeping, and Back Office Services
+                                <p class="sectionDescription text-white mt-2 secTitle">Shared Services Outsourcing: SMB Tax and Bookkeeping, and Back Office Services
 
                                 </p>
 
