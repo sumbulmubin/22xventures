@@ -87,12 +87,12 @@
 
 
 
-        <section style="background:#000; ">
+        <section style="background:#000; overflow: hidden; position: relative;">
             <div class="container">
                 <div class="row justify-content-center position-relative">
-                    <div class="col-lg-8">
+                    <div class="col-lg-10">
                         <div class="BannerTxtBox pb-5">
-                            <p class="slicksliderHeading text-center text-white m-auto" style="width:fit-content;">Financial Freedom Access for All
+                            <p class="slicksliderHeading text-center text-white m-auto mb-3" style="width:fit-content;">Financial Freedom Access for All
                             </p>
                             <p class="sliderSubHeading text-center text-white">Complimentary access to strategies and tools from successful families and businesses, tailored to your unique “Lifestage”, ensuring your path to financial freedom.
 
@@ -103,6 +103,23 @@
 
                     <div class="col-lg-8" style="position: relative;">
                         <img src="assets/img/image24.jpg" alt="Alt" class="img-fluid w-100">
+
+                        <div class="textBoxNew">
+                            <p class="text-white sliderHeading2 text-center">Digital Family Office Kit
+                            </p>
+                            <p class="text-white sliderHeading2 text-center">Unlock Your Financial Blueprint 
+                            </p>
+
+                            <ul class="text-white trategy-ul">
+                                <li>Personalized Strategy</li>
+                                <li>Flexible and Adaptable</li>
+                                <li> Goal-Oriented Approach</li>
+                                <li> Empowerment Through Knowledge</li>
+                                <li>Accumulation & Distribution Strategies</li>
+                                    
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -111,16 +128,16 @@
 
 
 
-        <section style="background:#000; ">
+        <section style="background:#000;  overflow: hidden; position: relative;">
 
         <div class="row justify-content-center position-relative">
 
             <div class="col-lg-6">
                 <div class="BannerTxtBox ps-5 pe-0">
-                    <p class="slicksliderHeading text-center text-white m-auto" style="width:fit-content;">Empower Your Future: Open Access
+                    <p class="slicksliderHeading text-center text-white m-auto mb-3" style="width:fit-content;">Empower Your Future: Open Access
 
                     </p>
-                    <p class="sliderSubHeading text-white">Start Now – Access Wealth Resources and Shape Your Ideal Life.
+                    <p class="sliderSubHeading text-white text-center">Start Now – Your Access Wealth Resources and Shape Your Ideal Life.
 
                     </p>
 
@@ -132,7 +149,7 @@
             <div class="col-lg-8 text-center">
                 <div class="boxWealth">
                     <p class="text-white sliderHeading2">Digital Family Office Kit<br>
-                    <span class="boxHeading text-white">Private Wealth, Financial, and Risk Management
+                    <span class="sliderSubHeading text-white text-center">Private Wealth, Financial, and Risk Management
                     </span></p>
                     <div class="d-flex gap-3 justify-content-center mt-5">
                         <a href="#" class="office-kit-box text-center text-white">
@@ -189,7 +206,7 @@
         <section class="section familyOff" style="background:#000; ">
             <div class="container">
                 <div class="row justify-content-center text-center">
-                    <p class="sectionHeading text-white m-auto">DIGITAL FAMILY OFFICE KIT</p>
+                    <p class="sectionHeading text-white m-auto mb-3">DIGITAL FAMILY OFFICE KIT</p>
                     <p class="sliderSubHeading text-white text-center">We bring strategies from successful family offices and businesses to the public.</p>
 
                 </div>
@@ -544,9 +561,9 @@
 
         <div class="row justify-content-center position-relative">
 
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="BannerTxtBox">
-                    <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Revolutionizing Total Workforce Benefits
+                    <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Revolutionizing Total Workforce Benefits
                     </p>
                 
                     <p class="sliderSubHeading text-white text-center">Attract, Retain, Reward – Tailored for Your Whole Team, From Founders to Contractors.
@@ -603,7 +620,7 @@
         <div class="row justify-content-center">
 
             <div class="col-lg-8">
-                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Redefining Workforce Value  – More Than 401(k) and Health Insurance
+                <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Redefining Workforce Value  – More Than 401(k) and Health Insurance
                 </p>
                 <p class="sliderSubHeading text-white text-center">Rewards and Benefits That Build Legacies – For Workers and Their Families.
                 </p>
@@ -615,10 +632,9 @@
                 <p class="sliderSubHeading text-white text-center">Benefits Solutions From Founders to Contractors
                 </p>
 
-                <div class="d-flex mt-2 justify-content-center gap-3">
+                <div class="d-flex mt-2 justify-content-center gap-3 mb-4">
                     <div class="work-box-1 d-flex">
-                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees<br>
-                            Benefits
+                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
                             </p>
                         <div class=" d-flex employees-img mt-2">
 
@@ -628,8 +644,7 @@
                     </div>
 
                     <div class="work-box-1 d-flex">
-                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors<br>
-                            Benefits
+                        <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
                             </p>
                         <div class=" d-flex employees-img mt-2">
 
@@ -670,7 +685,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Industry Leading Digital 401(k) Solution
+                <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Industry Leading Digital 401(k) Solution
                 </p>
                 <p class="sliderSubHeading text-white text-center">Outsource with Confidence – Your Benefits and Operations Managed End-to-End.
 
@@ -718,7 +733,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Contractor Benefits – Comprehensive Bundled Solution</p>
+                <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Contractor Benefits – Comprehensive Bundled Solution</p>
                 <p class="sliderSubHeading text-white text-center">Today's modern business comprises founders, full-time and part-time employees, contractors, and fractional leaders. We create innovative workforce benefit packages tailored to the needs of this rapidly evolving workforce.
                 </p>
             </div>
@@ -738,9 +753,9 @@
 
             <div class="col-lg-10">
 
-                <p class="sliderHeading text-white text-center mb-5">Unique Bundled Solutions Tailored to Fit Every Business Needs
+                <p class="sectionHeading text-white text-center mb-5 ">Unique Bundled Solutions Tailored to Fit Every Business Needs
                 </p>
-                <p class="slicksliderHeading text-white text-center m-auto" style="width: fit-content;">Workforce Benefits <span style="color:#ffc000;">plus</span> Digital Family Office Kit
+                <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Workforce Benefits <span style="color:#ffc000;">plus</span> Digital Family Office Kit
                 </p>
                 <p class="sliderSubHeading text-white text-center mb-5">From Start to Success.  Solutions for All Lifestages – Differentiation Through Customized Bundles.
 
@@ -933,7 +948,7 @@
 </section>
 
 
-        <section class="py-5" style="background: #000;">
+        <section class="py-5 position-relative" style="background: #000; overflow: hidden;">
             <div class="container">
 
            
@@ -943,7 +958,7 @@
                     </p>
                     <img src="assets/img/cityfont.png" style=" height: 46px;" class="img-fluid">
                 </span>
-                    <p class="sectionSubHeading text-white">We invest in the operations of communities, non-profits, and associations. 
+                    <p class="sliderSubHeading text-white text-center">We invest in the operations of communities, non-profits, and associations. 
                     </p>
 
                 </div>
