@@ -121,11 +121,12 @@ h6 {
 .slicksliderHeading:after {
   content: '';
   position: absolute;
-  bottom: 10px;
-  background: #ffc000;
-  width: 60px;
-  height: 8px;
-  left: -100px;
+  top: 7px;
+  background: url(../img/arrowYellow.png) no-repeat;
+  width: 130px;
+  height: 46px;
+  left: -60px;
+  background-size: contain;
 }
 .sectionSubHeading {
   font-size: 1.5rem;
@@ -142,11 +143,12 @@ h6 {
 .boxHeading:after {
   content: '';
   position: absolute;
-  top:50%;
-  background: #ffc000;
-  width: 60px;
-  height: 8px;
-  left: -10px;
+  top: 0px;
+  background: url(../img/arrowYellow.png) no-repeat;
+  width: 137px;
+  height: 46px;
+  left: 0px;
+  background-size: contain;
 }
 .scrolled header#header {
   background: #000000b8;
@@ -172,8 +174,8 @@ video#popupVideo1 {
 .fontFamily{
   font-family: "Kalam", cursive;
 }
-.img-sound-div {
-  display: none;
+.img-sound-div, .employees-img {
+  display: none!important;
 }
 /*--------------------------------------------------------------
 # Global Header
