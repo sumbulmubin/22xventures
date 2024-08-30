@@ -168,6 +168,10 @@ video#popupVideo{
 video#popupVideo1 {
   width: 100%;
 }
+
+.fontFamily{
+  font-family: myFirstFont;
+}
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/

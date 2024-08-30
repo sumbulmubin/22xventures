@@ -555,7 +555,7 @@
 
 <section style=" background: #000;">
     <div class="container">
-        <p class="sliderHeading text-white text-center mb-5">  NEW WORKER’S BENEFITS
+        <p class="sliderHeading text-white text-center mb-5">  <span class="yellowTextColor">NEW</span> WORKER’S BENEFITS
         </p>
       
 
@@ -627,9 +627,9 @@
             </div>
 
             <div class="col-lg-8">
-                <p class="sliderHeading2 text-white text-center">Workforce Prosperity</p>
+                <p class="sliderHeading2 text-white text-center pt-4">Workforce Prosperity</p>
 
-                <p class="sliderSubHeading text-white text-center">Benefits Solutions From Founders to Contractors
+                <p class="sliderSubHeading text-white text-center pb-4">Benefits Solutions From Founders to Contractors
                 </p>
 
                 <div class="d-flex mt-2 justify-content-center gap-3 mb-4">
@@ -755,7 +755,7 @@
 
                 <p class="sectionHeading text-white text-center mb-5 ">Unique Bundled Solutions Tailored to Fit Every Business Needs
                 </p>
-                <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Workforce Benefits <span style="color:#ffc000;">plus</span> Digital Family Office Kit
+                <p class="slicksliderHeading text-white text-center m-auto mb-3" style="width: fit-content;">Workforce Benefits <span class="fontFamily" style="color:#ffc000; ">plus</span> Digital Family Office Kit
                 </p>
                 <p class="sliderSubHeading text-white text-center mb-5">From Start to Success.  Solutions for All Lifestages – Differentiation Through Customized Bundles.
 
@@ -794,7 +794,7 @@
 
 
                 <div class="d-flex justify-content-center mt-3">
-                    <span class="yellowText-1">Plus</span>
+                    <span class="yellowText-1 fontFamily">Plus</span>
                 </div>
 
                 <p class="sliderHeading2 text-white text-center mt-2">Digital Family Office sub-Kit
