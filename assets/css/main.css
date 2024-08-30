@@ -1275,10 +1275,13 @@ border: 4px solid #fff;
   .cityfont {
     height: 16px;
 }
-  .slicksliderHeading:after {
-    width: 32px;
-    height: 5px;
-    left: -47px;
+.BannerTxtBox {
+  padding: 0px 30px;
+}
+.slicksliderHeading:after {
+  width: 32px;
+  height: 20px;
+  left: -18px;
 }
   .work-box-1 {
     padding: 12px 6px;
@@ -1448,6 +1451,12 @@ border: 4px solid #fff;
 # Global Sections
 --------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1499px) {
+  .banBox {
+    padding-top: 150px;
+}
+  section {
+    padding: 80px 0px 20px 0px;
+  }
   .sliderHeading2 {
     font-size: 2.5rem;
     line-height: 3rem;
