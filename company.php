@@ -42,20 +42,24 @@
         }
 
         .company-column-1 {
-            background: linear-gradient(180deg, #00000096 38%, #00000096), url(https://img.freepik.com/premium-photo/colorful-school-supply-doodles-with-back-school-chalkboard-background_1160979-1453.jpg?w=740);
+            background: linear-gradient(180deg, #00000096 38%, #00000096), url(assets/img/image1.jpg);
             height: 70vh;
             display: flex;
             align-items: center;
             justify-content: center;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
         .company-column-2 {
-            background: linear-gradient(180deg, #00000096 38%, #00000096), url(https://img.freepik.com/free-photo/composition-different-objects-fathers-day_23-2148097968.jpg?t=st=1725004061~exp=1725007661~hmac=d341f2c2749e0908c05dd478f51cc6e411787609ce66cf188cab6ce9eab897e6&w=740);
-            height: 70vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    background: linear-gradient(180deg, #00000096 38%, #00000096), url(assets/img/image10.png);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
     </style>
 
 
@@ -68,7 +72,7 @@
                     </p>
                     <p class="sliderSubHeading  text-white">We transform lives by securing financial security for the broad public.
                     </p>
-                    <p class="sectionDescription text-white  mt-3 main-description-1">
+                    <p class="sectionDescription text-white  mt-3 ">
                         Lifestage Financial, LLC is a modern financial services company dedicated to democratizing wealth-building strategies and tools traditionally reserved for affluent families and businesses. The company's mission is to provide "Financial Freedom Access for All" through personalized, adaptable financial solutions catering to individuals at every life stage.
 
                     </p>
@@ -77,7 +81,7 @@
 
 
 
-                
+
 
 
                 <div class="col-lg-4 text-center" style="">
@@ -98,16 +102,16 @@
         </div>
     </section>
 <style>
-  .affiliate-img {
-    width: 144px;
+.affiliate-img {
+    width: 200px;
 }
 </style>
 
 
     <section style="background:#000;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
 
                     <p class="sliderHeading2 text-white ">Offerings
                     </p>
@@ -131,18 +135,24 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="d-flex align-items-center justify-content-center">
-                        <p class="sliderSubHeading text-white mb-0">Our Bundled Offerings </p>
+                        <p class="sliderSubHeading text-white mb-0 fw-700">Our Bundled Offerings </p>
                         <img src="assets/img/two-hammers.png" alt="" class="img-fluid offering-img ms-2">
                     </div>
                     <div class="work-box-wrapper mb-3">
                         <div class="work-box-offer d-flex align-items-center mt-4">
-                            <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">EmployeesDigital Family Office Kit
+                            <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees Digital Family Office Kit
                             </p>
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1 ">
                             Complimentary access to strategies and resources. </p>
+
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/img/arrow-white.png" alt="" class="compli-img"> <p class="mb-0 fontFamily yellow-new-font" style="color:#ffc000; ">Plus</p>
+                           
+
+                            </div>
                     </div>
 
                     <div class="work-box-wrapper mb-3">
@@ -152,10 +162,16 @@
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1">
                             Digital 401(k), healthcare and life insurance, and more with comprehensive compliance.
 
                         </p>
+                        
+                        <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/img/arrow-white.png" alt="" class="compli-img"> <p class="mb-0 fontFamily yellow-new-font" style="color:#ffc000; ">Plus</p>
+                           
+
+                            </div>
                     </div>
 
                     <div class="work-box-wrapper mb-3">
@@ -166,10 +182,11 @@
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1 ">
                             Lower cost of insurance, plus alt-wealth strategies.
 
                         </p>
+                        
                     </div>
                    
                 </div>
@@ -177,10 +194,20 @@
         </div>
     </section>
 
+    <style>
+ .compli-img {
+    width: 29px;
+}
+        .yellow-new-font {
+ 
+    font-size: 1.5rem;
+}
+    </style>
+
     <section style="background:#000;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
 
                 <p class="sliderHeading2 text-white mt-4 ">Differentiations
 
@@ -210,6 +237,11 @@
                 <div class="col-lg-4 text-center">
 
 
+                <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/img/arrow-white.png" alt="" class="compli-img"> <p class="mb-0 fontFamily yellow-new-font" style="color:#ffc000; ">Plus</p>
+                           
+
+                            </div>
                    
                    <div class="work-box-wrapper mb-3">
                         <div class="work-box-offer d-flex align-items-center mt-4">
@@ -217,8 +249,14 @@
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1 ">
                             Top-tier consulting and Shared Services BPO’s.</p>
+                            
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/img/arrow-white.png" alt="" class="compli-img"> <p class="mb-0 fontFamily yellow-new-font" style="color:#ffc000; ">Plus</p>
+                           
+
+                            </div>
                     </div>
                     <div class="work-box-wrapper mb-3">
                         <div class="work-box-offer d-flex align-items-center mt-4">
@@ -227,10 +265,16 @@
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1 ">
                             Alt-Asset Investments with Principal Protection.
 
                         </p>
+                        
+                        <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/img/arrow-white.png" alt="" class="compli-img"> <p class="mb-0 fontFamily yellow-new-font" style="color:#ffc000; ">Plus</p>
+                           
+
+                            </div>
                     </div>
                     <div class="work-box-wrapper mb-3">
                         <div class="work-box-offer d-flex align-items-center mt-4">
@@ -238,8 +282,10 @@
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1 ">
                             Empowering and investing in Impact Organizations. </p>
+                            
+                            
                     </div>
                   
                 </div>
@@ -249,16 +295,16 @@
 
     <section style="background:#000;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
 
-                <p class="sliderSubHeading  text-white mt-4">Expertise</p>
+                <p class="sliderSubHeading  text-white mt-4 fw-700">Expertise</p>
 
                 <p class="sectionDescription text-white  ">Lifestage Financial provides access to subject matter experts across various fields, including financial planning, wealth strategy, insurance, tax mitigation, estate planning, and legal support.</p>
 
-                <p class="sliderSubHeading  text-white mt-2">Community Involvement</p>
+                <p class="sliderSubHeading  text-white mt-4 fw-700">Community Involvement</p>
                 <p class="sectionDescription text-white  ">The company invests in community initiatives, supporting non-profits, faith-based organizations, and the Asian-American leadership community through strategic investments and advisory services.</p>
-                <p class="sliderSubHeading  text-white mt-2">Partnership Approach</p>
+                <p class="sliderSubHeading  text-white mt-4 fw-700">Partnership Approach</p>
                 <p class="sectionDescription text-white  ">As Complex Program Managers, Lifestage Financial leverages a partner-centric ecosystem, including fractional executives, management consultants, CPA firms, and legal experts, to create innovative, goal-aligned solutions for businesses.</p>
                 <p class="sectionDescription text-white  ">In summary, Lifestage Financial aims to transform the financial services landscape by making sophisticated wealth-building strategies accessible to a broader audience while providing comprehensive, personalized solutions for both individuals and businesses at every stage of their financial journey.</p>
 
@@ -267,9 +313,14 @@
 
                 </div>
                 <div class="col-lg-4 text-center">
+                <div class="d-flex align-items-center justify-content-center mb-1">
+                                <img src="assets/img/arrow-white.png" alt="" class="compli-img"> <p class="mb-0 fontFamily yellow-new-font" style="color:#ffc000; ">Plus</p>
+                           
+
+                            </div>
                     
                 <div class="work-box-wrapper mb-3">
-                        <div class="work-box-offer d-flex align-items-center mt-4">
+                        <div class="work-box-offer d-flex align-items-center mt-2">
                             <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Partnerships
 
 
@@ -277,8 +328,10 @@
 
                         </div>
 
-                        <p class="sectionDescription text-white  mt-3 main-description-1">
+                        <p class="sectionDescription text-white  my-1">
                             Affinity Marketing System; with Revenue Share.</p>
+                            
+                           
                     </div>
                     
                   
@@ -292,7 +345,7 @@
             position: relative;
         }
 
-        .work-box-wrapper .sectionDescription::after {
+        /* .work-box-wrapper .sectionDescription::after {
             position: absolute;
             content: '';
             background-image: url(http://localhost/22xventures/assets/img/arrow-white.png);
@@ -302,29 +355,29 @@
             height: 100px;
             background-size: contain;
             background-repeat: no-repeat;
-        }
+        } */
 
-        .work-box-wrapper .sectionDescription::before {
+        /* .work-box-wrapper .sectionDescription::before {
             position: absolute;
             content: 'Plus';
-            /* background-image: url(http://localhost/22xventures/assets/img/arrow-white.png); */
+        
             left: 124px;
             top: 50%;
             font-size: 30px;
             color: #FFC107;
-        }
+        } */
 
         .work-box-wrapper .sectionDescription :nth-child(last)::before {
             display: none;
         }
 
         .work-box-offer {
-            border: 2px solid #fff;
-            padding: 16px 5px 16px 5px;
-            width: 100%;
-            justify-content: center;
-            background: #000;
-        }
+    border: 2px solid #fff;
+    padding: 7px 5px;
+    width: 100%;
+    justify-content: center;
+    background: #000;
+}
 
         .offering-list {
             padding-left: 15px;
@@ -338,6 +391,28 @@
         .offering-img {
             width: 20px;
         }
+
+
+      @media (min-width: 1200px) and (max-width: 1499px)  {
+      .sliderSubHeading {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.sectionDescription {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+}
+@media (min-width: 1900px) {
+.sliderSubHeading {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    /* padding-top: 30px; */
+    /* padding-left: 30px; */
+    position: relative;
+}
+}
     </style>
 
     <?php include('inc/footer.php') ?>
