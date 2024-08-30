@@ -1210,6 +1210,54 @@ border: 4px solid #fff;
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
+  section {
+    padding: 60px 0px 20px 0px;
+}
+  .reaserch-box .secTitle {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-right: 0px;
+}
+  .finance-ul li {
+    width: 44%;
+    margin-left: 14px;
+    font-size: .91rem;
+    line-height: 1.4rem;
+}
+  .office-kit-box {
+    width: 41%;
+    font-size: 1rem;
+}
+  .boxWealth .d-flex.gap-3.justify-content-center {
+    flex-wrap: wrap;
+}
+  .header .logo img {
+    width: 210px;
+}
+  .sliderSubHeading {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+  .trategy-ul li {
+    font-size: 1.12rem;
+    line-height: 1.6rem;
+}
+  .sliderHeading2, .sectionHeading{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+  .slicksliderHeading {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+  .sliderSubHeading {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+  .sliderHeading {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+}
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
