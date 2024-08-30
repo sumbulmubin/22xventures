@@ -29,7 +29,7 @@
 
      <nav id="navmenu" class="navmenu">
        <ul>
-         <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+         <!-- <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
            <ul>
              <li><a href="#">Dropdown 1</a></li>
              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -88,7 +88,13 @@
              <li><a href="#">Dropdown 1</a></li>
              <li><a href="#">Dropdown 2</a></li>
            </ul>
-         </li>
+         </li> -->
+         <!-- <li><a href="">Product </a></li>
+         <li><a href="">Product</a></li>
+         <li><a href="">Solution</a></li>
+         <li><a href="">Community</a></li>
+         <li><a href="">Partner</a></li> -->
+         <li><a href="">Company</a></li>
          <li><a href="">Sign In</a></li>
        </ul>
        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

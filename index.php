@@ -133,7 +133,7 @@
         <div class="row justify-content-center position-relative">
 
             <div class="col-lg-6">
-                <div class="BannerTxtBox ps-5 pe-0">
+                <div class="BannerTxtBox">
                     <p class="slicksliderHeading text-center text-white m-auto mb-3" style="width:fit-content;">Empower Your Future: Open Access
 
                     </p>
@@ -174,7 +174,7 @@
                     <div class="mt-5">
                         <div class="row align-items-center">
                             <div class="col-lg-2">
-                                <img src="assets/img/two-hammers.png" alt="">
+                                <img src="assets/img/two-hammers.png" alt="" class="two-hammers">
                             </div>
                             <div class="col-lg-10 text-start">
                                 <ul class="text-white finance-ul">
@@ -212,7 +212,7 @@
                 </div>
 
                 <div class="row justify-content-center mt-5">
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-1.jpg" alt="" class="img-fluid">
@@ -240,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-2.jpg" alt="" class="img-fluid">
@@ -268,7 +268,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-3.jpg" alt="" class="img-fluid">
@@ -296,7 +296,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-4.jpg" alt="" class="img-fluid">
@@ -325,7 +325,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-5.jpg" alt="" class="img-fluid">
@@ -352,7 +352,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-6.jpg" alt="" class="img-fluid">
@@ -381,7 +381,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-7.jpg" alt="" class="img-fluid">
@@ -409,7 +409,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-3">
+                    <div class="col-lg-3 col-md-6 mb-3">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-8.jpg" alt="" class="img-fluid">
@@ -439,7 +439,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 ">
                         <div class="reaserch-box">
                             <div class="img-div">
                                 <img src="assets/img/img-16.jpg" alt="" class="img-fluid">
@@ -466,7 +466,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 ">
                         <div class="reaserch-box reaserchWhite">
                             <div class="img-div">
                                 <img src="assets/img/img-10.jpg" alt="" class="img-fluid">
@@ -493,7 +493,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 ">
                         <div class="reaserch-box reaserchWhite">
                             <div class="img-div">
                                 <img src="assets/img/img-11.jpg" alt="" class="img-fluid">
@@ -522,7 +522,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 ">
                         <div class="reaserch-box reaserchWhite">
                             <div class="img-div">
                                 <img src="assets/img/img-12.jpg" alt="" class="img-fluid">
@@ -555,7 +555,7 @@
 
 <section style=" background: #000;">
     <div class="container">
-        <p class="sliderHeading text-white text-center mb-5">  <span class="yellowTextColor">NEW</span> WORKER’S BENEFITS
+        <p class="sliderHeading text-white text-center mb-5">  <span class="yellowTextColor fontFamily">NEW</span> WORKER’S BENEFITS
         </p>
       
 
@@ -747,7 +747,7 @@
     </div>
 </section>
 
-<section style=" background: #000;">
+<section style=" background: #000; position: relative; overflow: hidden;">
     <div class="container">
         <div class="row justify-content-center">
 
@@ -771,7 +771,7 @@
                 <div class="d-flex mt-2 justify-content-center gap-3">
                     <div class="work-box-1 d-flex align-items-center">
                         <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Employees
-                            Benefits
+                        
                             </p>
                         <div class=" d-flex employees-img">
 
@@ -782,7 +782,6 @@
 
                     <div class="work-box-1 d-flex align-items-center">
                         <p class="sliderSubHeading text-center text-white pt-0 mb-0 px-3">Contractors
-                            Benefits
                             </p>
                         <div class=" d-flex employees-img">
 
@@ -800,7 +799,7 @@
                 <p class="sliderHeading2 text-white text-center mt-2">Digital Family Office sub-Kit
                 </p>
 
-                <div class="d-flex gap-3 justify-content-center mt-4">
+                <div class="d-flex gap-3 justify-content-center mt-4 office-kitBg">
                     <a href="#" class="office-kit-box text-center text-white">
                 SRA
             </a>
@@ -843,7 +842,7 @@
             <p class="sliderSubHeading text-white text-center">Every day, we research and analyze strategies to add value to our clients </p>
     
         <div class="row justify-content-center mt-5">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 ">
                 <div class="reaserch-box-1" style="background: #0b3041;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
@@ -868,7 +867,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 ">
                 <div class="reaserch-box-1" style="background: #3a3a3a;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
@@ -892,7 +891,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 ">
                 <div class="reaserch-box-1" style="background: #78206e;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
@@ -917,7 +916,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 ">
                 <div class="reaserch-box-1" style="background: #275317;">
                     <div class="content-div-1 ">
                         <div class="research-div-1 d-flex justify-content-between">
@@ -956,7 +955,7 @@
                 <div class="row justify-content-center text-center mb-1">
                     <span class="d-flex justify-content-center align-items-center gap-2 mb-3"><p class="sectionHeading text-white mb-0">COMMUNITIES by
                     </p>
-                    <img src="assets/img/cityfont.png" style=" height: 46px;" class="img-fluid">
+                    <img src="assets/img/cityfont.png" style="" class="img-fluid cityfont">
                 </span>
                     <p class="sliderSubHeading text-white text-center">We invest in the operations of communities, non-profits, and associations. 
                     </p>
